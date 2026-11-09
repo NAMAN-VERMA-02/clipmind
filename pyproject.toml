@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clipmind"
+version = "0.1.0"
+description = "Clipboard history for Windows that you search by meaning. Never stores secrets, encrypted and Windows Hello-gated, no network code."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Naman Verma" }]
+requires-python = ">=3.12"
+# Runtime closure must stay free of HTTP clients: tests/test_no_network.py enforces it.
+dependencies = [
+  "cryptography>=44",
+  "numpy>=2.0",
+  "winrt-runtime>=3.0",
+  "winrt-Windows.Foundation>=3.0",
+  "winrt-Windows.Security.Credentials>=3.0",
+  "winrt-Windows.Security.Cryptography>=3.0",
+  "winrt-Windows.Storage.Streams>=3.0",
+]
+classifiers = [
+  "Operating System :: Microsoft :: Windows :: Windows 10",
+  "Operating System :: Microsoft :: Windows :: Windows 11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Security",
+  "Topic :: Utilities",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "pip-audit", "psutil", "tokenizers", "setuptools>=75"]
+
+[project.scripts]
+clipmind = "clipmind.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "hello: needs a real Windows Hello prompt; run by hand with -m hello",
+  "win32: uses the real Windows clipboard",
+]
+addopts = "-m 'not hello'"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "S", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106"]
+"eval/**" = ["S101", "S105", "S106", "S311"]
+"scripts/**" = ["S310"]

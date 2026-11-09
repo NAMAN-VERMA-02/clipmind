@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/NAMAN-VERMA-02/clipmind/security/advisories/new
+    about: Private report. Please don't file security problems as public issues.
+  - name: Questions
+    url: https://github.com/NAMAN-VERMA-02/clipmind/discussions/categories/q-a
+    about: Ask how something works in Discussions.
