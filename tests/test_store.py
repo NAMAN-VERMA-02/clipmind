@@ -47,7 +47,7 @@ def test_credential_manager_roundtrip(target):
 
 
 def test_setup_then_unlock_with_same_hello(target):
-    pub = keys.setup(fake_hello(), target)
+    pub = keys.setup(fake_hello(), target).public_key()
     assert keys.public_key(target).public_bytes_raw() == pub.public_bytes_raw()
     priv = keys.unlock(fake_hello(), target)
     assert priv.public_key().public_bytes_raw() == pub.public_bytes_raw()

@@ -29,7 +29,20 @@ jobs:
           python -m pip install --no-deps --no-build-isolation -e .
       - name: Lint
         run: ruff check .
+      - name: Cache embedding model
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ${{ runner.temp }}/clipmind/models
+          key: models-${{ hashFiles('scripts/fetch_model.py') }}
+      - name: Fetch pinned models (SHA-256 checked; the app itself has no network code)
+        env:
+          CLIPMIND_DATA_DIR: ${{ runner.temp }}/clipmind
+        run: |
+          python scripts/fetch_model.py potion-base-8M
+          python scripts/fetch_model.py potion-retrieval-32M
       - name: Tests (sockets blocked)
+        env:
+          CLIPMIND_DATA_DIR: ${{ runner.temp }}/clipmind
         run: pytest -q
       - name: Audit dependencies
         run: pip-audit --skip-editable
