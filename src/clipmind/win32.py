@@ -326,6 +326,36 @@ def foreground_window():
     return user32.GetForegroundWindow()
 
 
+class _MONITORINFO(ctypes.Structure):
+    _fields_ = [("cbSize", wintypes.DWORD), ("rcMonitor", wintypes.RECT), ("rcWork", wintypes.RECT),
+                ("dwFlags", wintypes.DWORD)]
+
+
+_sig(user32, "MonitorFromPoint", wintypes.HMONITOR, wintypes.POINT, wintypes.DWORD)
+_sig(user32, "GetMonitorInfoW", wintypes.BOOL, wintypes.HMONITOR, ctypes.POINTER(_MONITORINFO))
+
+
+def work_area_at_cursor() -> tuple[int, int, int, int]:
+    """(left, top, right, bottom) of the work area on the monitor under the mouse."""
+    pt = wintypes.POINT()
+    user32.GetCursorPos(ctypes.byref(pt))
+    info = _MONITORINFO(cbSize=ctypes.sizeof(_MONITORINFO))
+    user32.GetMonitorInfoW(user32.MonitorFromPoint(pt, 2), ctypes.byref(info))  # MONITOR_DEFAULTTONEAREST
+    r = info.rcWork
+    return r.left, r.top, r.right, r.bottom
+
+
+_sig(kernel32, "CreateMutexW", H, P, wintypes.BOOL, wintypes.LPCWSTR)
+_instance_mutex = None
+
+
+def single_instance() -> bool:
+    """False if another clipmind is already running for this user session."""
+    global _instance_mutex
+    _instance_mutex = kernel32.CreateMutexW(None, False, "Local\\clipmind-single-instance")
+    return ctypes.get_last_error() != 183  # ERROR_ALREADY_EXISTS
+
+
 VK_NAMES = {"space": 0x20, "enter": 0x0D, "insert": 0x2D, **{f"f{i}": 0x6F + i for i in range(1, 13)}}
 
 
@@ -461,6 +491,9 @@ class Window:
     def confirm(self, text: str) -> bool:
         return user32.MessageBoxW(self.hwnd, text, "clipmind",
                                   MB_YESNO | MB_ICONWARNING | MB_DEFBUTTON2 | MB_TOPMOST) == IDYES
+
+    def notify(self, text: str) -> None:
+        user32.MessageBoxW(self.hwnd, text, "clipmind", MB_TOPMOST)
 
     def _tray(self, action: int) -> None:
         tip = "clipmind: capture paused" if self.paused else "clipmind: capturing (secrets filtered)"

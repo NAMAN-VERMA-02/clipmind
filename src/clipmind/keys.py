@@ -133,15 +133,18 @@ def hello_delete() -> None:
 # --- key pair ------------------------------------------------------------------------------------------------
 
 
-def setup(sign: Signer = hello_sign, target: str = TARGET) -> X25519PublicKey:
-    """Create the key pair, wrap the private half with the Hello-derived key, store it in Credential Manager."""
+def setup(sign: Signer = hello_sign, target: str = TARGET) -> X25519PrivateKey:
+    """Create the key pair, wrap the private half with the Hello-derived key, store it in Credential Manager.
+
+    Returns the private key so the first session starts unlocked (the user just passed Hello).
+    """
     priv = X25519PrivateKey.generate()
     pub = priv.public_key().public_bytes_raw()
     nonce = os.urandom(12)
     wrapped = AESGCM(_hkdf(sign(CHALLENGE), b"clipmind wrap v1")).encrypt(nonce, priv.private_bytes_raw(),
                                                                           VERSION + pub)
     vault_write(target, VERSION + pub + nonce + wrapped)
-    return priv.public_key()
+    return priv
 
 
 def public_key(target: str = TARGET) -> X25519PublicKey | None:
