@@ -1,0 +1,150 @@
+{"id": "T001", "text": "docker run -d -p 5432:5432 -e POSTGRES_DB=app postgres:16"}
+{"id": "T002", "text": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"}
+{"id": "T003", "text": "Flight AI 302 Delhi → Mumbai, 14 Nov 06:10, PNR X7K2LQ, seat 14C"}
+{"id": "T004", "text": "git rebase -i HEAD~3"}
+{"id": "T005", "text": "Prof. Sharma's office hours: Tue & Thu 2–4 PM, Room 214, CS block"}
+{"id": "T006", "text": "SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 50000;"}
+{"id": "T007", "text": "Mom's birthday gift idea: Kindle Paperwhite, ₹13,999 on Amazon"}
+{"id": "T008", "text": "pip install -r requirements.txt --upgrade"}
+{"id": "T009", "text": "The interview is on 18 Nov at 11:30 AM via Google Meet; round 2 is DSA + system design."}
+{"id": "T010", "text": "Wi-Fi network name: KIET-Hostel-5G"}
+{"id": "T011", "text": "const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };"}
+{"id": "T012", "text": "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"}
+{"id": "T013", "text": "Rent for November: ₹9,500 to Mr. Gupta by the 5th, UPI gupta.rent@oksbi"}
+{"id": "T014", "text": "kubectl logs -f deployment/api -n staging --tail=200"}
+{"id": "T015", "text": "Abstract: We propose a lightweight method for detecting anomalies in IoT sensor streams using autoencoders."}
+{"id": "T016", "text": "npm run build && npm run preview"}
+{"id": "T017", "text": "Reminder: library books due on 21 Nov — Operating System Concepts and CLRS."}
+{"id": "T018", "text": "Doctor appointment: Dr. Mehta, Max Hospital Vaishali, Sat 10:15 AM"}
+{"id": "T019", "text": "from collections import defaultdict\ngraph = defaultdict(list)\nfor u, v in edges:\n    graph[u].append(v)"}
+{"id": "T020", "text": "https://www.youtube.com/watch?v=8hly31xKli0 — Abdul Bari, Algorithms playlist"}
+{"id": "T021", "text": "Train 12004 Shatabdi, New Delhi → Lucknow, 23 Dec, coach C4 seat 52"}
+{"id": "T022", "text": "Meeting notes: decided to switch from REST polling to WebSockets for live scores."}
+{"id": "T023", "text": "ssh-keygen -t ed25519 -C \"work laptop\""}
+{"id": "T024", "text": "Bhai kal ka quiz postpone ho gaya, ab Monday ko hai"}
+{"id": "T025", "text": "Recipe: poha — 2 cups flattened rice, onion, peanuts, turmeric, curry leaves, lemon."}
+{"id": "T026", "text": "useEffect(() => { const id = setInterval(tick, 1000); return () => clearInterval(id); }, []);"}
+{"id": "T027", "text": "Address: Flat 302, Shanti Apartments, Sector 12, Raj Nagar Extension, Ghaziabad 201017"}
+{"id": "T028", "text": "https://docs.python.org/3/library/asyncio-task.html"}
+{"id": "T029", "text": "TODO: fix the off-by-one in pagination when page size is 0"}
+{"id": "T030", "text": "CREATE INDEX idx_orders_user_created ON orders(user_id, created_at DESC);"}
+{"id": "T031", "text": "Placement drive: Infosys on 3 Dec, register on the TPO portal by 28 Nov."}
+{"id": "T032", "text": "Electricity bill ₹2,340 due 15 Nov, consumer no. 4471029384 (PVVNL)"}
+{"id": "T033", "text": "git stash push -m \"wip: popup layout\""}
+{"id": "T034", "text": "Quote: \"Simplicity is prerequisite for reliability.\" — Edsger Dijkstra"}
+{"id": "T035", "text": "https://github.com/microsoft/PowerToys/releases"}
+{"id": "T036", "text": "Time complexity of building a heap is O(n), not O(n log n)."}
+{"id": "T037", "text": "Gym schedule: Mon/Wed/Fri push-pull-legs, 6:30 AM"}
+{"id": "T038", "text": "ffmpeg -i input.mp4 -vf \"fps=12,scale=800:-1\" -loop 0 out.gif"}
+{"id": "T039", "text": "Exam timetable: DBMS 2 Dec, OS 5 Dec, CN 8 Dec, Compiler Design 11 Dec"}
+{"id": "T040", "text": "We regret to inform you that we will not be moving forward with your application at this time."}
+{"id": "T041", "text": "Pizza order: 1 large Farmhouse, 1 Garlic Bread, Coke 1.25L — total ₹789"}
+{"id": "T042", "text": "export PYTHONPATH=$PWD/src"}
+{"id": "T043", "text": "https://www.figma.com/community/file/1035203688168086460/material-3-design-kit"}
+{"id": "T044", "text": "Hostel warden contact: Mr. Verma, ext. 2231"}
+{"id": "T045", "text": "Big-O cheat sheet: hash map insert O(1) avg, BST search O(log n) balanced, quicksort O(n²) worst"}
+{"id": "T046", "text": "chmod 600 ~/.ssh/config"}
+{"id": "T047", "text": "Saturday plan: laundry, finish OS assignment, call nani"}
+{"id": "T048", "text": "app.get('/health', (req, res) => res.json({ status: 'ok' }));"}
+{"id": "T049", "text": "https://www.amazon.in/dp/B0BSHF7WHW — Logitech MX Master 3S"}
+{"id": "T050", "text": "Feedback from mentor: write more tests, keep PRs small, explain the why in commit messages."}
+{"id": "T051", "text": "Cab booked: Ola Mini, pickup 5:40 AM from hostel gate to IGI T3"}
+{"id": "T052", "text": "SELECT * FROM users WHERE email LIKE '%@kiet.edu' ORDER BY created_at DESC LIMIT 20;"}
+{"id": "T053", "text": "Proof by induction: base case n=1 holds; assume for k, show for k+1."}
+{"id": "T054", "text": "Movie night: Interstellar at PVR Opulent, 9:45 PM, seats H7-H8"}
+{"id": "T055", "text": "python -m venv .venv && .venv\\Scripts\\activate"}
+{"id": "T056", "text": "https://en.wikipedia.org/wiki/CAP_theorem"}
+{"id": "T057", "text": "Sorry for the late reply, I was travelling. Sending the report tonight."}
+{"id": "T058", "text": "@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }"}
+{"id": "T059", "text": "Internship offer: SDE Intern, Bengaluru, ₹50k/month stipend, joining 2 June"}
+{"id": "T060", "text": "Ingredients for chai: water, milk, ginger, cardamom, tea leaves, sugar"}
+{"id": "T061", "text": "Lost & found: black HP laptop bag left in LT-3 after the 2nd lecture"}
+{"id": "T062", "text": "def lru_cache_demo(n):\n    @functools.lru_cache(maxsize=None)\n    def fib(k): return k if k < 2 else fib(k-1)+fib(k-2)\n    return fib(n)"}
+{"id": "T063", "text": "Bank holiday on 15 Nov (Guru Nanak Jayanti), branches closed"}
+{"id": "T064", "text": "Team names for hackathon: Byte Me, Null Pointers, Ctrl Alt Elite"}
+{"id": "T065", "text": "tar -czvf backup-2026-11-09.tar.gz ~/projects"}
+{"id": "T066", "text": "https://codeforces.com/blog/entry/57282"}
+{"id": "T067", "text": "Parents arriving Sunday 4 PM at Ghaziabad station, pick them up"}
+{"id": "T068", "text": "Normalization: 1NF removes repeating groups, 2NF removes partial dependency, 3NF removes transitive dependency."}
+{"id": "T069", "text": "Subscription renewal: Spotify Premium Student ₹59/month on 20 Nov"}
+{"id": "T070", "text": "I think we should split the monolith only after we have proper monitoring."}
+{"id": "T071", "text": "curl -s https://api.github.com/repos/python/cpython | jq .stargazers_count"}
+{"id": "T072", "text": "Blood group: B+ (for the donation camp form)"}
+{"id": "T073", "text": "Notes: TCP three-way handshake = SYN, SYN-ACK, ACK"}
+{"id": "T074", "text": "Shopping: detergent, toothpaste, maggi x6, notebook, AA batteries"}
+{"id": "T075", "text": "git log --oneline --graph --decorate --all"}
+{"id": "T076", "text": "Volunteering at the NSS blood donation camp, Sunday 9 AM, main auditorium"}
+{"id": "T077", "text": "Screenshot shows the null pointer happens when the cart is empty"}
+{"id": "T078", "text": "Cover letter opening: I am writing to express my interest in the Software Engineer role at your company."}
+{"id": "T079", "text": "for (int i = 0; i < n; i++) for (int j = 0; j < n - i - 1; j++) if (a[j] > a[j+1]) swap(a[j], a[j+1]);"}
+{"id": "T080", "text": "Uncle's new number after the SIM change, save it in contacts as Mama ji"}
+{"id": "T081", "text": "https://react.dev/reference/react/useMemo"}
+{"id": "T082", "text": "Assignment 3: implement a thread pool in C with pthreads, due 30 Nov"}
+{"id": "T083", "text": "Trek plan: Triund, 2 days, leave Friday night by Volvo from Kashmere Gate"}
+{"id": "T084", "text": "Error: ModuleNotFoundError: No module named 'cv2'"}
+{"id": "T085", "text": "To-do before graduation: 2 internships, 1 open-source contribution, 300 LeetCode problems"}
+{"id": "T086", "text": "WhatsApp group link for the DSA study circle"}
+{"id": "T087", "text": "Big announcement: college fest Udghosh dates are 7–9 Feb!"}
+{"id": "T088", "text": "Environment variables in Windows: setx PATH \"%PATH%;C:\\tools\""}
+{"id": "T089", "text": "Chapter summary: photosynthesis converts light energy into chemical energy stored in glucose."}
+{"id": "T090", "text": "Return window for the headphones closes on 18 Nov"}
+{"id": "T091", "text": "Speech for farewell: four years, countless all-nighters, and friends who became family."}
+{"id": "T092", "text": "Configured Nginx reverse proxy: location /api { proxy_pass http://127.0.0.1:8000; }"}
+{"id": "T093", "text": "Scholarship form needs income certificate, marksheets, and bank passbook copy"}
+{"id": "T094", "text": "Regex for Indian mobile numbers: ^[6-9]\\d{9}$"}
+{"id": "T095", "text": "Coffee with Riya at Blue Tokai, Connaught Place, 5 PM"}
+{"id": "T096", "text": "Resume bullet: Reduced API latency by 38% by adding Redis caching"}
+{"id": "T097", "text": "Kadane's algorithm keeps the best sum ending here and the best overall."}
+{"id": "T098", "text": "Remember to call the bank about the debit card that got blocked"}
+{"id": "T099", "text": "Mess timings changed: breakfast 7:30–9, lunch 12:30–2, dinner 7:30–9:30"}
+{"id": "T100", "text": "Wrapped up the sprint demo; stakeholders liked the search feature but want faster loading."}
+{"id": "T101", "text": "Lab record submission: Computer Networks practical file, sign from Dr. Rao before 25 Nov"}
+{"id": "T102", "text": "https://www.coursera.org/learn/machine-learning"}
+{"id": "T103", "text": "docker compose up -d --build"}
+{"id": "T104", "text": "Minutes: the client wants dark mode and CSV export in the next release."}
+{"id": "T105", "text": "Diwali sale: Sony WH-1000XM5 at ₹24,990 on Flipkart"}
+{"id": "T106", "text": "def binary_search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2"}
+{"id": "T107", "text": "Hostel fee receipt no. HF-2026-1187, paid ₹48,000"}
+{"id": "T108", "text": "Ask Aman for the Compiler Design notes (unit 2, LL(1) parsing)"}
+{"id": "T109", "text": "https://tailwindcss.com/docs/grid-template-columns"}
+{"id": "T110", "text": "Dentist reminder: cleaning on 2 Dec, 4:30 PM"}
+{"id": "T111", "text": "git push --force-with-lease origin feat/capture"}
+{"id": "T112", "text": "Group project roles: Naman backend, Priya frontend, Kabir testing, Sneha docs"}
+{"id": "T113", "text": "Netflix password sharing ends this month, need my own plan"}
+{"id": "T114", "text": "Maggi with cheese and extra masala at the night canteen"}
+{"id": "T115", "text": "CORS error: No 'Access-Control-Allow-Origin' header is present on the requested resource."}
+{"id": "T116", "text": "Hackathon problem statement: build an offline-first app for rural health workers"}
+{"id": "T117", "text": "Ola driver left my umbrella in the car, ride on 3 Nov"}
+{"id": "T118", "text": "SELECT COUNT(*) FROM logs WHERE level = 'ERROR' AND ts > now() - interval '1 hour';"}
+{"id": "T119", "text": "Gita quote: You have a right to your actions, not to the fruits of your actions."}
+{"id": "T120", "text": "Amazon return pickup scheduled for 12 Nov between 9 AM and 1 PM"}
+{"id": "T121", "text": "Tips for system design interviews: clarify requirements, estimate scale, start simple"}
+{"id": "T122", "text": "https://www.kaggle.com/competitions/titanic"}
+{"id": "T123", "text": "Grandma's recipe for gajar halwa: carrots, milk, ghee, sugar, cardamom, dry fruits"}
+{"id": "T124", "text": "Semester registration closes on 10 Jan, pay the late fee after that"}
+{"id": "T125", "text": "Linux command to find big files: du -ah . | sort -rh | head -20"}
+{"id": "T126", "text": "Badminton court booked: Court 2, Sunday 7 AM, sports complex"}
+{"id": "T127", "text": "Note to self: stop doom scrolling after 11 PM"}
+{"id": "T128", "text": "async function fetchUser(id) { const res = await fetch(`/api/users/${id}`); return res.json(); }"}
+{"id": "T129", "text": "Train delayed by 3 hours, new arrival 2:15 AM at Anand Vihar"}
+{"id": "T130", "text": "Certificate of participation: Smart India Hackathon 2025 internal round"}
+{"id": "T131", "text": "Water bottle and charger left in the library, 2nd floor reading room"}
+{"id": "T132", "text": "https://www.notion.so/templates/student-planner"}
+{"id": "T133", "text": "Sister's wedding on 8 Feb in Jaipur, book tickets early"}
+{"id": "T134", "text": "Reviewer comment: please add unit tests for the edge case where the list is empty"}
+{"id": "T135", "text": "Fixed: memory leak caused by event listeners not being removed on unmount"}
+{"id": "T136", "text": "Electricity went out in Block B, generator from 8 PM"}
+{"id": "T137", "text": "Prep plan: Striver's SDE sheet, 5 problems a day, revise on Sundays"}
+{"id": "T138", "text": "nvidia-smi shows 0% GPU usage while training, check CUDA version"}
+{"id": "T139", "text": "Ice cream flavours for the party: butterscotch, chocolate, mango"}
+{"id": "T140", "text": "Thank-you note to Prof. Iyer for the recommendation letter"}
+{"id": "T141", "text": "JSON sample: {\"city\": \"Lucknow\", \"temp_c\": 18, \"aqi\": 212}"}
+{"id": "T142", "text": "Bike service due at 6000 km, Hero service centre on NH-58"}
+{"id": "T143", "text": "Startup idea: a clipboard manager that never stores passwords"}
+{"id": "T144", "text": "The cafe near Gate 2 accepts only UPI after 8 PM"}
+{"id": "T145", "text": "Final year project title: Detecting fake news using transformer models"}
+{"id": "T146", "text": "Passport appointment at PSK Ghaziabad, 19 Nov, 10:30 AM, carry originals"}
+{"id": "T147", "text": "Swap two numbers without a temp: a ^= b; b ^= a; a ^= b;"}
+{"id": "T148", "text": "Rain expected tomorrow, carry an umbrella to college"}
+{"id": "T149", "text": "Podcast to listen: Lex Fridman with Andrej Karpathy"}
+{"id": "T150", "text": "Laptop warranty ends on 30 Jan, extended warranty costs ₹4,999"}

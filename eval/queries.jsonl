@@ -1,0 +1,100 @@
+{"target": "T001", "type": "paraphrase", "query": "start a database container", "author": "claude"}
+{"target": "T002", "type": "keyword", "query": "longest substring leetcode", "author": "claude"}
+{"target": "T003", "type": "vague", "query": "my bombay trip booking", "author": "claude"}
+{"target": "T004", "type": "paraphrase", "query": "squash the last few commits", "author": "claude"}
+{"target": "T005", "type": "vague", "query": "when can I meet the professor", "author": "claude"}
+{"target": "T006", "type": "paraphrase", "query": "query for average pay per team", "author": "claude"}
+{"target": "T007", "type": "vague", "query": "present for mother", "author": "claude"}
+{"target": "T008", "type": "keyword", "query": "pip install requirements", "author": "claude"}
+{"target": "T009", "type": "paraphrase", "query": "when is my second technical round", "author": "claude"}
+{"target": "T010", "type": "keyword", "query": "hostel wifi name", "author": "claude"}
+{"target": "T011", "type": "paraphrase", "query": "delay a function until typing stops", "author": "claude"}
+{"target": "T012", "type": "keyword", "query": "dijkstra shortest path", "author": "claude"}
+{"target": "T013", "type": "vague", "query": "money I owe the landlord", "author": "claude"}
+{"target": "T014", "type": "paraphrase", "query": "follow the server output in the test cluster", "author": "claude"}
+{"target": "T015", "type": "vague", "query": "that research summary about sensors", "author": "claude"}
+{"target": "T016", "type": "keyword", "query": "npm run build preview", "author": "claude"}
+{"target": "T017", "type": "paraphrase", "query": "return borrowed textbooks deadline", "author": "claude"}
+{"target": "T018", "type": "vague", "query": "clinic visit weekend", "author": "claude"}
+{"target": "T019", "type": "paraphrase", "query": "build an adjacency list in python", "author": "claude"}
+{"target": "T020", "type": "keyword", "query": "abdul bari algorithms", "author": "claude"}
+{"target": "T021", "type": "vague", "query": "going home for the holidays", "author": "claude"}
+{"target": "T022", "type": "paraphrase", "query": "why we moved to realtime connections", "author": "claude"}
+{"target": "T023", "type": "paraphrase", "query": "make a new key pair for remote login", "author": "claude"}
+{"target": "T024", "type": "vague", "query": "test moved", "author": "claude"}
+{"target": "T025", "type": "keyword", "query": "poha recipe", "author": "claude"}
+{"target": "T026", "type": "paraphrase", "query": "react timer that cleans itself up", "author": "claude"}
+{"target": "T027", "type": "vague", "query": "where the apartment is", "author": "claude"}
+{"target": "T028", "type": "keyword", "query": "asyncio task docs", "author": "claude"}
+{"target": "T029", "type": "paraphrase", "query": "bug with listing pages edge case", "author": "claude"}
+{"target": "T030", "type": "paraphrase", "query": "speed up looking up a customer's purchases", "author": "claude"}
+{"target": "T031", "type": "keyword", "query": "infosys placement drive", "author": "claude"}
+{"target": "T032", "type": "vague", "query": "power payment", "author": "claude"}
+{"target": "T033", "type": "paraphrase", "query": "temporarily shelve my uncommitted changes", "author": "claude"}
+{"target": "T034", "type": "vague", "query": "that line about simple things", "author": "claude"}
+{"target": "T035", "type": "keyword", "query": "powertoys releases", "author": "claude"}
+{"target": "T036", "type": "paraphrase", "query": "how fast is heapify", "author": "claude"}
+{"target": "T037", "type": "vague", "query": "workout plan", "author": "claude"}
+{"target": "T038", "type": "paraphrase", "query": "turn a video into an animated image", "author": "claude"}
+{"target": "T039", "type": "keyword", "query": "exam timetable", "author": "claude"}
+{"target": "T040", "type": "paraphrase", "query": "rejection email", "author": "claude"}
+{"target": "T041", "type": "vague", "query": "food we ordered", "author": "claude"}
+{"target": "T042", "type": "paraphrase", "query": "make python find my package folder", "author": "claude"}
+{"target": "T043", "type": "keyword", "query": "material 3 figma kit", "author": "claude"}
+{"target": "T044", "type": "vague", "query": "who runs the dorm", "author": "claude"}
+{"target": "T045", "type": "paraphrase", "query": "complexity summary of data structures", "author": "claude"}
+{"target": "T046", "type": "keyword", "query": "chmod ssh config", "author": "claude"}
+{"target": "T047", "type": "vague", "query": "weekend chores", "author": "claude"}
+{"target": "T048", "type": "paraphrase", "query": "endpoint to check the server is alive", "author": "claude"}
+{"target": "T049", "type": "keyword", "query": "logitech mouse", "author": "claude"}
+{"target": "T050", "type": "paraphrase", "query": "advice I got about code reviews", "author": "claude"}
+{"target": "T051", "type": "vague", "query": "airport ride", "author": "claude"}
+{"target": "T052", "type": "keyword", "query": "users with kiet email", "author": "claude"}
+{"target": "T053", "type": "paraphrase", "query": "how mathematical induction works", "author": "claude"}
+{"target": "T054", "type": "vague", "query": "cinema tickets", "author": "claude"}
+{"target": "T055", "type": "paraphrase", "query": "set up an isolated python environment on windows", "author": "claude"}
+{"target": "T056", "type": "keyword", "query": "cap theorem", "author": "claude"}
+{"target": "T057", "type": "vague", "query": "apology message", "author": "claude"}
+{"target": "T058", "type": "paraphrase", "query": "css to stack columns on phones", "author": "claude"}
+{"target": "T059", "type": "keyword", "query": "internship offer stipend", "author": "claude"}
+{"target": "T060", "type": "paraphrase", "query": "how to make indian tea", "author": "claude"}
+{"target": "T061", "type": "vague", "query": "missing bag", "author": "claude"}
+{"target": "T062", "type": "paraphrase", "query": "memoized fibonacci", "author": "claude"}
+{"target": "T063", "type": "keyword", "query": "bank holiday guru nanak", "author": "claude"}
+{"target": "T064", "type": "vague", "query": "funny group names", "author": "claude"}
+{"target": "T065", "type": "paraphrase", "query": "compress my projects folder into an archive", "author": "claude"}
+{"target": "T066", "type": "keyword", "query": "codeforces blog entry", "author": "claude"}
+{"target": "T067", "type": "vague", "query": "family coming over", "author": "claude"}
+{"target": "T068", "type": "paraphrase", "query": "database design normal forms explained", "author": "claude"}
+{"target": "T069", "type": "keyword", "query": "spotify renewal", "author": "claude"}
+{"target": "T070", "type": "vague", "query": "opinion about breaking up the backend", "author": "claude"}
+{"target": "T071", "type": "paraphrase", "query": "count stars of a repo from the terminal", "author": "claude"}
+{"target": "T072", "type": "keyword", "query": "blood group", "author": "claude"}
+{"target": "T073", "type": "paraphrase", "query": "how a connection is opened in networking", "author": "claude"}
+{"target": "T074", "type": "vague", "query": "things to buy", "author": "claude"}
+{"target": "T075", "type": "keyword", "query": "git log graph", "author": "claude"}
+{"target": "T076", "type": "paraphrase", "query": "helping out at the charity event", "author": "claude"}
+{"target": "T077", "type": "vague", "query": "crash with empty basket", "author": "claude"}
+{"target": "T078", "type": "keyword", "query": "cover letter software engineer", "author": "claude"}
+{"target": "T079", "type": "paraphrase", "query": "simple sorting by swapping neighbours", "author": "claude"}
+{"target": "T080", "type": "vague", "query": "relative's contact", "author": "claude"}
+{"target": "T081", "type": "keyword", "query": "react useMemo", "author": "claude"}
+{"target": "T082", "type": "paraphrase", "query": "concurrency homework", "author": "claude"}
+{"target": "T083", "type": "vague", "query": "mountain trip", "author": "claude"}
+{"target": "T084", "type": "keyword", "query": "module not found cv2", "author": "claude"}
+{"target": "T085", "type": "paraphrase", "query": "career goals checklist", "author": "claude"}
+{"target": "T086", "type": "vague", "query": "study group invite", "author": "claude"}
+{"target": "T087", "type": "keyword", "query": "college fest dates", "author": "claude"}
+{"target": "T088", "type": "paraphrase", "query": "permanently add a folder to the search path", "author": "claude"}
+{"target": "T089", "type": "vague", "query": "biology notes about plants", "author": "claude"}
+{"target": "T090", "type": "keyword", "query": "headphones return", "author": "claude"}
+{"target": "T091", "type": "paraphrase", "query": "goodbye talk for seniors", "author": "claude"}
+{"target": "T092", "type": "vague", "query": "server forwarding setup", "author": "claude"}
+{"target": "T093", "type": "keyword", "query": "scholarship documents", "author": "claude"}
+{"target": "T094", "type": "paraphrase", "query": "pattern to validate phone numbers", "author": "claude"}
+{"target": "T095", "type": "vague", "query": "catching up with a friend", "author": "claude"}
+{"target": "T096", "type": "keyword", "query": "resume bullet redis latency", "author": "claude"}
+{"target": "T097", "type": "paraphrase", "query": "max subarray trick", "author": "claude"}
+{"target": "T098", "type": "vague", "query": "card problem", "author": "claude"}
+{"target": "T099", "type": "keyword", "query": "mess timings", "author": "claude"}
+{"target": "T100", "type": "paraphrase", "query": "how the product showcase went", "author": "claude"}
