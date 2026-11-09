@@ -1,0 +1,392 @@
+{"id": "H001", "kind": "number", "text": "Order #402-5938127-6612345"}
+{"id": "H002", "kind": "number", "text": "Your order 171-2938475-1029384 has shipped"}
+{"id": "H003", "kind": "number", "text": "Invoice INV-2024-00981"}
+{"id": "H004", "kind": "number", "text": "₹1,24,999.00"}
+{"id": "H005", "kind": "number", "text": "$1,299.99"}
+{"id": "H006", "kind": "number", "text": "Total: 4,560"}
+{"id": "H007", "kind": "number", "text": "+91 98765 43210"}
+{"id": "H008", "kind": "number", "text": "9876543210"}
+{"id": "H009", "kind": "number", "text": "+1 (415) 555-0132"}
+{"id": "H010", "kind": "number", "text": "011-23456789"}
+{"id": "H011", "kind": "number", "text": "1800-425-3800"}
+{"id": "H012", "kind": "number", "text": "2025"}
+{"id": "H013", "kind": "number", "text": "1998"}
+{"id": "H014", "kind": "number", "text": "8080"}
+{"id": "H015", "kind": "number", "text": "5432"}
+{"id": "H016", "kind": "number", "text": "3000"}
+{"id": "H017", "kind": "number", "text": "443"}
+{"id": "H018", "kind": "number", "text": "1920x1080"}
+{"id": "H019", "kind": "number", "text": "3.14159"}
+{"id": "H020", "kind": "number", "text": "0.0.0.0"}
+{"id": "H021", "kind": "number", "text": "192.168.1.104"}
+{"id": "H022", "kind": "number", "text": "10.0.0.1:8080"}
+{"id": "H023", "kind": "number", "text": "127.0.0.1"}
+{"id": "H024", "kind": "number", "text": "v2.14.3"}
+{"id": "H025", "kind": "number", "text": "1.26.4"}
+{"id": "H026", "kind": "number", "text": "Python 3.12.10"}
+{"id": "H027", "kind": "number", "text": "20 Nov 2026, 14:30 IST"}
+{"id": "H028", "kind": "number", "text": "2026-11-09T16:34:00+05:30"}
+{"id": "H029", "kind": "number", "text": "1731150840"}
+{"id": "H030", "kind": "number", "text": "1731150840123"}
+{"id": "H031", "kind": "number", "text": "Tracking ID: EZ123456789IN"}
+{"id": "H032", "kind": "number", "text": "AWB 7845 1234 5678"}
+{"id": "H033", "kind": "number", "text": "PNR 4521367890"}
+{"id": "H034", "kind": "number", "text": "4521367890"}
+{"id": "H035", "kind": "number", "text": "Train 12951 Mumbai Rajdhani"}
+{"id": "H036", "kind": "number", "text": "12951"}
+{"id": "H037", "kind": "number", "text": "Flight AI 302, seat 14C"}
+{"id": "H038", "kind": "number", "text": "Room 1204"}
+{"id": "H039", "kind": "number", "text": "Pincode: 201206"}
+{"id": "H040", "kind": "number", "text": "Ghaziabad, Uttar Pradesh 201206"}
+{"id": "H041", "kind": "number", "text": "Roll No. 2200290100123"}
+{"id": "H042", "kind": "number", "text": "2200290100123"}
+{"id": "H043", "kind": "number", "text": "Enrollment 2022CS10345"}
+{"id": "H044", "kind": "number", "text": "Employee ID 104523"}
+{"id": "H045", "kind": "number", "text": "Ticket #48213"}
+{"id": "H046", "kind": "number", "text": "Case 00123456"}
+{"id": "H047", "kind": "number", "text": "Chapter 12, page 348"}
+{"id": "H048", "kind": "number", "text": "Section 302 IPC"}
+{"id": "H049", "kind": "number", "text": "Ref: 0098 2231 4471"}
+{"id": "H050", "kind": "number", "text": "ISBN 978-0-13-468599-1"}
+{"id": "H051", "kind": "number", "text": "9780134685991"}
+{"id": "H052", "kind": "number", "text": "UPC 036000291452"}
+{"id": "H053", "kind": "number", "text": "IMEI 356938035643809"}
+{"id": "H054", "kind": "number", "text": "35-209900-176148-1"}
+{"id": "H055", "kind": "number", "text": "Account No. 50100234567891"}
+{"id": "H056", "kind": "number", "text": "IFSC: SBIN0004567"}
+{"id": "H057", "kind": "number", "text": "GSTIN 27AAPFU0939F1ZV"}
+{"id": "H058", "kind": "number", "text": "UPI: naman@okaxis"}
+{"id": "H059", "kind": "number", "text": "MICR 110002087"}
+{"id": "H060", "kind": "number", "text": "1024"}
+{"id": "H061", "kind": "number", "text": "4096"}
+{"id": "H062", "kind": "number", "text": "65535"}
+{"id": "H063", "kind": "number", "text": "Score: 98/100"}
+{"id": "H064", "kind": "number", "text": "CGPA 8.74"}
+{"id": "H065", "kind": "number", "text": "Batch 2022-2026"}
+{"id": "H066", "kind": "number", "text": "Semester 5"}
+{"id": "H067", "kind": "number", "text": "PIN code 110001"}
+{"id": "H068", "kind": "number", "text": "2026"}
+{"id": "H069", "kind": "number", "text": "Your order will arrive in 3-5 days"}
+{"id": "H070", "kind": "number", "text": "Call me after 4"}
+{"id": "H071", "kind": "number", "text": "Meet at gate 12"}
+{"id": "H072", "kind": "number", "text": "Lat 28.7525, Long 77.4986"}
+{"id": "H073", "kind": "number", "text": "+91-120-2763410"}
+{"id": "H074", "kind": "number", "text": "1234 5678 9012 3456"}
+{"id": "H075", "kind": "number", "text": "0000 0000 0000 0000"}
+{"id": "H076", "kind": "number", "text": "100.00"}
+{"id": "H077", "kind": "number", "text": "₹ 499/-"}
+{"id": "H078", "kind": "number", "text": "Qty 12 x 349 = 4188"}
+{"id": "H079", "kind": "number", "text": "Bus 3456 to Noida"}
+{"id": "H080", "kind": "number", "text": "HSN 8471"}
+{"id": "H081", "kind": "number", "text": "Order ID: 98213347"}
+{"id": "H082", "kind": "card_luhn_invalid", "text": "4111 1111 1111 1112"}
+{"id": "H083", "kind": "card_luhn_invalid", "text": "5500 0000 0000 0005"}
+{"id": "H084", "kind": "card_luhn_invalid", "text": "6011 0000 0000 0005"}
+{"id": "H085", "kind": "card_luhn_invalid", "text": "3782 822463 10006"}
+{"id": "H086", "kind": "card_luhn_invalid", "text": "4012 8888 8888 1882"}
+{"id": "H087", "kind": "card_luhn_invalid", "text": "5105-1051-0510-5101"}
+{"id": "H088", "kind": "card_luhn_invalid", "text": "4532015112830367"}
+{"id": "H089", "kind": "card_luhn_invalid", "text": "6521234567890124"}
+{"id": "H090", "kind": "card_luhn_invalid", "text": "Gift card balance ref 4111 1111 1111 1112"}
+{"id": "H091", "kind": "card_luhn_invalid", "text": "Gift card balance ref 5500 0000 0000 0005"}
+{"id": "H092", "kind": "card_luhn_invalid", "text": "Gift card balance ref 6011 0000 0000 0005"}
+{"id": "H093", "kind": "imei", "text": "350749265207132"}
+{"id": "H094", "kind": "imei", "text": "863525425663996"}
+{"id": "H095", "kind": "imei", "text": "861324297245575"}
+{"id": "H096", "kind": "imei", "text": "357283510293062"}
+{"id": "H097", "kind": "imei", "text": "863489289767072"}
+{"id": "H098", "kind": "imei", "text": "012130031106215"}
+{"id": "H099", "kind": "imei", "text": "IMEI: 350749265207132"}
+{"id": "H100", "kind": "imei", "text": "IMEI: 863525425663996"}
+{"id": "H101", "kind": "imei", "text": "IMEI: 861324297245575"}
+{"id": "H102", "kind": "aadhaar_like", "text": "123456789012"}
+{"id": "H103", "kind": "aadhaar_like", "text": "012345678901"}
+{"id": "H104", "kind": "aadhaar_like", "text": "100020003000"}
+{"id": "H105", "kind": "aadhaar_like", "text": "arn:aws:iam::123456789012:role/deploy"}
+{"id": "H106", "kind": "aadhaar_like", "text": "AWS account 123456789012"}
+{"id": "H107", "kind": "aadhaar_like", "text": "919876543210"}
+{"id": "H108", "kind": "aadhaar_like", "text": "918888777766"}
+{"id": "H109", "kind": "aadhaar_like", "text": "wa.me/919812345678"}
+{"id": "H110", "kind": "aadhaar_like", "text": "Ref 1100 2233 4455"}
+{"id": "H111", "kind": "aadhaar_like", "text": "1000 2000 3000"}
+{"id": "H112", "kind": "pan_like", "text": "ABCDE1234F"}
+{"id": "H113", "kind": "pan_like", "text": "IFSC SBIN0001234"}
+{"id": "H114", "kind": "pan_like", "text": "HDFC0000123"}
+{"id": "H115", "kind": "pan_like", "text": "UP16AB1234"}
+{"id": "H116", "kind": "pan_like", "text": "MH12DE1433"}
+{"id": "H117", "kind": "pan_like", "text": "XPS13-9340"}
+{"id": "H118", "kind": "pan_like", "text": "RTX4090"}
+{"id": "H119", "kind": "pan_like", "text": "GSTIN 09AAACH7409R1ZZ"}
+{"id": "H120", "kind": "pan_like", "text": "Model KDL-43W6600"}
+{"id": "H121", "kind": "pan_like", "text": "SKU 8901030865278"}
+{"id": "H122", "kind": "pan_like", "text": "Coupon FLAT50OFF"}
+{"id": "H123", "kind": "pan_like", "text": "Voucher SAVE2024NOW"}
+{"id": "H124", "kind": "jwt_like", "text": "v1.2.3"}
+{"id": "H125", "kind": "jwt_like", "text": "a.b.c"}
+{"id": "H126", "kind": "jwt_like", "text": "com.example.app"}
+{"id": "H127", "kind": "jwt_like", "text": "www.example.co.in"}
+{"id": "H128", "kind": "jwt_like", "text": "eyJhbGciOi"}
+{"id": "H129", "kind": "jwt_like", "text": "header.payload.signature"}
+{"id": "H130", "kind": "jwt_like", "text": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9"}
+{"id": "H131", "kind": "jwt_like", "text": "java.util.concurrent.ConcurrentHashMap"}
+{"id": "H132", "kind": "jwt_like", "text": "org.apache.commons.lang3"}
+{"id": "H133", "kind": "jwt_like", "text": "1.2.840.113549.1.1.11"}
+{"id": "H134", "kind": "jwt_like", "text": "app.config.settings.DEBUG"}
+{"id": "H135", "kind": "jwt_like", "text": "node.js.org"}
+{"id": "H136", "kind": "jwt_like", "text": "README.md.bak"}
+{"id": "H137", "kind": "jwt_like", "text": "e.g. foo.bar.baz"}
+{"id": "H138", "kind": "prose_secret_words", "text": "Never share your OTP with anyone, including bank staff."}
+{"id": "H139", "kind": "prose_secret_words", "text": "Reset your password using the link we emailed you."}
+{"id": "H140", "kind": "prose_secret_words", "text": "Password: must be at least 12 characters with a number and a symbol."}
+{"id": "H141", "kind": "prose_secret_words", "text": "The access token expires after 60 minutes; refresh it with the refresh token."}
+{"id": "H142", "kind": "prose_secret_words", "text": "Store the API key in an environment variable, not in code."}
+{"id": "H143", "kind": "prose_secret_words", "text": "Your one-time password will arrive by SMS."}
+{"id": "H144", "kind": "prose_secret_words", "text": "Enter the 6-digit code from your authenticator app."}
+{"id": "H145", "kind": "prose_secret_words", "text": "Rotate secrets every 90 days."}
+{"id": "H146", "kind": "prose_secret_words", "text": "PAN card and Aadhaar card are required for KYC."}
+{"id": "H147", "kind": "prose_secret_words", "text": "Link your Aadhaar with your PAN before 31 March."}
+{"id": "H148", "kind": "prose_secret_words", "text": "Card ending in 4242 was charged ₹499."}
+{"id": "H149", "kind": "prose_secret_words", "text": "Please send me the private key fingerprint, not the key itself."}
+{"id": "H150", "kind": "prose_secret_words", "text": "The JWT is signed with RS256."}
+{"id": "H151", "kind": "prose_secret_words", "text": "Bearer tokens go in the Authorization header."}
+{"id": "H152", "kind": "prose_secret_words", "text": "My password manager is Bitwarden."}
+{"id": "H153", "kind": "prose_secret_words", "text": "Forgot password? Click here."}
+{"id": "H154", "kind": "prose_secret_words", "text": "sk-learn is not a package, you want scikit-learn"}
+{"id": "H155", "kind": "prose_secret_words", "text": "Use sk_test keys in development and live keys only in production."}
+{"id": "H156", "kind": "prose_secret_words", "text": "OTP verification failed. Please try again."}
+{"id": "H157", "kind": "prose_secret_words", "text": "Your OTP has expired. Request a new one."}
+{"id": "H158", "kind": "prose_secret_words", "text": "Generate a new SSH key with ssh-keygen -t ed25519."}
+{"id": "H159", "kind": "prose_secret_words", "text": "Secret Santa list is in the group chat"}
+{"id": "H160", "kind": "prose_secret_words", "text": "token economy, token ring, token of appreciation"}
+{"id": "H161", "kind": "prose_secret_words", "text": "The password is on the sticky note — just kidding, use the vault."}
+{"id": "H162", "kind": "prose_secret_words", "text": "Do not paste API keys into ChatGPT."}
+{"id": "H163", "kind": "prose_secret_words", "text": "Aadhaar number format is 12 digits; PAN is 10 characters."}
+{"id": "H164", "kind": "prose_secret_words", "text": "Card number, expiry and CVV are never stored by us."}
+{"id": "H165", "kind": "prose_secret_words", "text": "Two-factor authentication is now on for your account."}
+{"id": "H166", "kind": "code", "text": "password = os.environ[\"DB_PASSWORD\"]"}
+{"id": "H167", "kind": "code", "text": "token = request.headers.get(\"Authorization\")"}
+{"id": "H168", "kind": "code", "text": "api_key = config.get(\"api_key\")"}
+{"id": "H169", "kind": "code", "text": "export AWS_PROFILE=dev"}
+{"id": "H170", "kind": "code", "text": "DB_PASSWORD=${DB_PASSWORD}"}
+{"id": "H171", "kind": "code", "text": "password: ${{ secrets.DOCKER_PASSWORD }}"}
+{"id": "H172", "kind": "code", "text": "const secret = process.env.JWT_SECRET;"}
+{"id": "H173", "kind": "code", "text": "if (!password) throw new Error(\"password required\");"}
+{"id": "H174", "kind": "code", "text": "def check_password(raw: str, hashed: str) -> bool:"}
+{"id": "H175", "kind": "code", "text": "SELECT id, email FROM users WHERE password_hash IS NULL;"}
+{"id": "H176", "kind": "code", "text": "git commit -m \"fix: handle expired token\""}
+{"id": "H177", "kind": "code", "text": "kubectl get secrets -n prod"}
+{"id": "H178", "kind": "code", "text": "docker login -u naman --password-stdin < pass.txt"}
+{"id": "H179", "kind": "code", "text": "ssh -i ~/.ssh/id_ed25519 naman@10.0.0.5"}
+{"id": "H180", "kind": "code", "text": "openssl genrsa -out private.pem 2048"}
+{"id": "H181", "kind": "code", "text": "curl -H \"Authorization: Bearer $TOKEN\" https://api.example.com/me"}
+{"id": "H182", "kind": "code", "text": "pip install pyjwt cryptography"}
+{"id": "H183", "kind": "code", "text": "const [password, setPassword] = useState(\"\");"}
+{"id": "H184", "kind": "code", "text": "<input type=\"password\" name=\"password\" autocomplete=\"current-password\">"}
+{"id": "H185", "kind": "code", "text": "api_key = \"YOUR_API_KEY_HERE\""}
+{"id": "H186", "kind": "code", "text": "password = \"<your password>\""}
+{"id": "H187", "kind": "code", "text": "for i, row in enumerate(rows):"}
+{"id": "H188", "kind": "code", "text": "return {\"status\": \"ok\", \"count\": len(items)}"}
+{"id": "H189", "kind": "code", "text": "import numpy as np"}
+{"id": "H190", "kind": "code", "text": "npm install --save-dev @types/node"}
+{"id": "H191", "kind": "code", "text": "git clone https://github.com/example/agentreplay.git"}
+{"id": "H192", "kind": "code", "text": "git checkout -b feat/secret-filters"}
+{"id": "H193", "kind": "code", "text": "git reset --soft HEAD~1"}
+{"id": "H194", "kind": "code", "text": "uvicorn app.main:app --reload --port 8000"}
+{"id": "H195", "kind": "code", "text": "SELECT * FROM orders WHERE created_at > NOW() - INTERVAL '7 days';"}
+{"id": "H196", "kind": "code", "text": "console.log(JSON.stringify(data, null, 2));"}
+{"id": "H197", "kind": "code", "text": "ALTER TABLE users ADD COLUMN last_login TIMESTAMP;"}
+{"id": "H198", "kind": "code", "text": "{\"name\": \"clipmind\", \"version\": \"0.1.0\", \"private\": true}"}
+{"id": "H199", "kind": "code", "text": "\"integrity\": \"sha512-XGesbsAyPxxm9pqzK2TFMXbUpgELLzZMe3PEzHJBHskHX+WtNAtbe3ipOmr/XA5cT/Cbq71tCpqaSRlt85j4pw==\""}
+{"id": "H200", "kind": "code", "text": "FROM python:3.12-slim@sha256:10aeeb36bfd651c3388134d2248645de0df2ef9de3b477400486e3e085e36444"}
+{"id": "H201", "kind": "code", "text": "token_type = 'bearer'"}
+{"id": "H202", "kind": "code", "text": "SECRET_KEY = get_random_secret_key()"}
+{"id": "H203", "kind": "code", "text": "jwt.decode(token, key, algorithms=['HS256'])"}
+{"id": "H204", "kind": "code", "text": "hashlib.sha256(password.encode()).hexdigest()"}
+{"id": "H205", "kind": "code", "text": "if otp != expected_otp:\n    raise InvalidOTP()"}
+{"id": "H206", "kind": "code", "text": "public static void main(String[] args) {"}
+{"id": "H207", "kind": "code", "text": "#include <bits/stdc++.h>\nusing namespace std;"}
+{"id": "H208", "kind": "code", "text": "vector<int> dp(n + 1, INT_MAX);"}
+{"id": "H209", "kind": "code", "text": "while (lo < hi) { int mid = lo + (hi - lo) / 2; }"}
+{"id": "H210", "kind": "url", "text": "https://docs.google.com/document/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit"}
+{"id": "H211", "kind": "url", "text": "https://drive.google.com/file/d/1aB3dE5fG7hI9jK1lM3nO5pQ7rS9tU1vW/view?usp=sharing"}
+{"id": "H212", "kind": "url", "text": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=42s"}
+{"id": "H213", "kind": "url", "text": "https://youtu.be/9bZkp7q19f0"}
+{"id": "H214", "kind": "url", "text": "https://github.com/pallets/flask/pull/5432"}
+{"id": "H215", "kind": "url", "text": "https://leetcode.com/problems/two-sum/"}
+{"id": "H216", "kind": "url", "text": "https://www.amazon.in/dp/B0CHX1W1XY?ref=ppx_yo2ov_dt_b_product_details"}
+{"id": "H217", "kind": "url", "text": "https://maps.app.goo.gl/X2bG9QaZkLmN3pRt7"}
+{"id": "H218", "kind": "url", "text": "https://meet.google.com/abc-defg-hij"}
+{"id": "H219", "kind": "url", "text": "https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python"}
+{"id": "H220", "kind": "url", "text": "https://en.wikipedia.org/wiki/Luhn_algorithm"}
+{"id": "H221", "kind": "url", "text": "https://www.irctc.co.in/nget/train-search"}
+{"id": "H222", "kind": "url", "text": "https://www.figma.com/design/Xk3PqL9mNz8RtY2vWc4Ub7/Portfolio?node-id=12-345"}
+{"id": "H223", "kind": "url", "text": "https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT?si=8f1c2b3a4d5e6f70"}
+{"id": "H224", "kind": "url", "text": "https://pypi.org/project/cryptography/"}
+{"id": "H225", "kind": "url", "text": "https://docs.python.org/3/library/sqlite3.html#sqlite3.Connection.execute"}
+{"id": "H226", "kind": "url", "text": "https://www.linkedin.com/in/example-profile/"}
+{"id": "H227", "kind": "url", "text": "https://x.com/user/status/1856472093847562240"}
+{"id": "H228", "kind": "url", "text": "https://drive.google.com/drive/folders/1Zq8XwY3vB5nM7kL9jH2gF4dS6aP8oI0u"}
+{"id": "H229", "kind": "url", "text": "https://colab.research.google.com/drive/1fK9xJ3mQ7wR2tY8uI4oP6aS5dF0gH1jK"}
+{"id": "H230", "kind": "url", "text": "https://www.notion.so/Weekly-Plan-8f3c2b1a9d7e4f6a8b0c1d2e3f4a5b6c"}
+{"id": "H231", "kind": "url", "text": "https://github.com/example/mcpfuzz/commit/3f9a1c7e2b8d4f6a0c5e9b1d7f3a8c2e4b6d0f1a"}
+{"id": "H232", "kind": "url", "text": "https://example.com/reset?email=naman%40example.com&lang=en"}
+{"id": "H233", "kind": "url", "text": "https://accounts.google.com/o/oauth2/v2/auth?client_id=1234567890-abc.apps.googleusercontent.com&redirect_uri=http://localhost:8080/callback&response_type=code&scope=openid"}
+{"id": "H234", "kind": "url", "text": "https://www.google.com/search?q=luhn+algorithm+python"}
+{"id": "H235", "kind": "url", "text": "https://unsplash.com/photos/a-mountain-range-at-sunset-Xk3PqL9mNz8"}
+{"id": "H236", "kind": "url", "text": "https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"}
+{"id": "H237", "kind": "url", "text": "https://wa.me/919876543210"}
+{"id": "H238", "kind": "url", "text": "https://www.flipkart.com/apple-iphone-15/p/itm6ac6485515ae4?pid=MOBGTAGPTB3VS24W"}
+{"id": "H239", "kind": "url", "text": "https://in.indeed.com/viewjob?jk=4f8a2c9e1b7d3a6f"}
+{"id": "H240", "kind": "url", "text": "https://chat.whatsapp.com/Ff3kL9pQx2mN8vR1tY7wZc"}
+{"id": "H241", "kind": "url", "text": "https://imgur.com/gallery/Xk3PqL9"}
+{"id": "H242", "kind": "url", "text": "https://codeforces.com/contest/1980/problem/C"}
+{"id": "H243", "kind": "url", "text": "https://www.geeksforgeeks.org/dynamic-programming/"}
+{"id": "H244", "kind": "ids_hashes", "text": "550e8400-e29b-41d4-a716-446655440000"}
+{"id": "H245", "kind": "ids_hashes", "text": "f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"id": "H246", "kind": "ids_hashes", "text": "123e4567-e89b-12d3-a456-426614174000"}
+{"id": "H247", "kind": "ids_hashes", "text": "c9bf9e57-1685-4c89-bafb-ff5af830be8a"}
+{"id": "H248", "kind": "ids_hashes", "text": "5f0e8dfda9576580258ce9345472289b2faf084c"}
+{"id": "H249", "kind": "ids_hashes", "text": "655a9ff4a4ec0770860b872907059fc9c1268dd9"}
+{"id": "H250", "kind": "ids_hashes", "text": "3f9a1c7"}
+{"id": "H251", "kind": "ids_hashes", "text": "81f6a9de1cd64655daeeaf09b8f1a908e0395189235142af5be1c1aad4f9b2be"}
+{"id": "H252", "kind": "ids_hashes", "text": "15cfc0ba2ea60cce2df8915d24abe349"}
+{"id": "H253", "kind": "ids_hashes", "text": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}
+{"id": "H254", "kind": "ids_hashes", "text": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e"}
+{"id": "H255", "kind": "ids_hashes", "text": "bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq"}
+{"id": "H256", "kind": "ids_hashes", "text": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"}
+{"id": "H257", "kind": "ids_hashes", "text": "65f1c2a9e4b0a1d2c3e4f5a6"}
+{"id": "H258", "kind": "ids_hashes", "text": "-NxK3pQ9mL2vR8tY1wZ4"}
+{"id": "H259", "kind": "ids_hashes", "text": "UC_x5XG1OV2P6uZZ5FSM9Ttw"}
+{"id": "H260", "kind": "ids_hashes", "text": "aGVsbG8gd29ybGQ="}
+{"id": "H261", "kind": "ids_hashes", "text": "G-4X8B2KQ9LM"}
+{"id": "H262", "kind": "ids_hashes", "text": "UA-12345678-1"}
+{"id": "H263", "kind": "ids_hashes", "text": "main.8f3a2c1b.js"}
+{"id": "H264", "kind": "ids_hashes", "text": "app-4c9d1e7f.css"}
+{"id": "H265", "kind": "ids_hashes", "text": "f3a8c2e4b6d0"}
+{"id": "H266", "kind": "ids_hashes", "text": "C04ABCD1234"}
+{"id": "H267", "kind": "ids_hashes", "text": "api-7d9f8b6c5-x2k9p"}
+{"id": "H268", "kind": "ids_hashes", "text": "@tanstack/react-query"}
+{"id": "H269", "kind": "ids_hashes", "text": "minishlab/potion-base-8M"}
+{"id": "H270", "kind": "ids_hashes", "text": "ami-0c55b159cbfafe1f0"}
+{"id": "H271", "kind": "ids_hashes", "text": "i-0abcd1234efgh5678"}
+{"id": "H272", "kind": "ids_hashes", "text": "vpc-0a1b2c3d4e5f67890"}
+{"id": "H273", "kind": "ids_hashes", "text": "sg-0123456789abcdef0"}
+{"id": "H274", "kind": "ids_hashes", "text": "projects/my-proj/locations/us-central1"}
+{"id": "H275", "kind": "ids_hashes", "text": "pk_live_sxnP1xDUV2AfpwB435AnFdzE"}
+{"id": "H276", "kind": "ids_hashes", "text": "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"}
+{"id": "H277", "kind": "ids_hashes", "text": "BBF7A6B2-4C1E-4D7A-9F0E-2A3B4C5D6E7F"}
+{"id": "H278", "kind": "ids_hashes", "text": "ghp_ is the GitHub token prefix"}
+{"id": "H279", "kind": "ids_hashes", "text": "AKIA is the AWS key prefix"}
+{"id": "H280", "kind": "password_like_safe", "text": "naman_verma02"}
+{"id": "H281", "kind": "password_like_safe", "text": "student.cse@kiet.edu"}
+{"id": "H282", "kind": "password_like_safe", "text": "someone@example.com"}
+{"id": "H283", "kind": "password_like_safe", "text": "C:\\Users\\me\\Downloads\\Invoice_2024-11.pdf"}
+{"id": "H284", "kind": "password_like_safe", "text": "/usr/local/bin/python3.12"}
+{"id": "H285", "kind": "password_like_safe", "text": "~/.ssh/config"}
+{"id": "H286", "kind": "password_like_safe", "text": "getUserById"}
+{"id": "H287", "kind": "password_like_safe", "text": "HttpClientFactory"}
+{"id": "H288", "kind": "password_like_safe", "text": "useEffect"}
+{"id": "H289", "kind": "password_like_safe", "text": "MAX_RETRY_COUNT"}
+{"id": "H290", "kind": "password_like_safe", "text": "snake_case_variable_2"}
+{"id": "H291", "kind": "password_like_safe", "text": "Report_Q3_2024.pdf"}
+{"id": "H292", "kind": "password_like_safe", "text": "IMG_20241105_183245.jpg"}
+{"id": "H293", "kind": "password_like_safe", "text": "#MondayMotivation"}
+{"id": "H294", "kind": "password_like_safe", "text": "@naman_dev"}
+{"id": "H295", "kind": "password_like_safe", "text": "db-prod-01.internal"}
+{"id": "H296", "kind": "password_like_safe", "text": "api.staging.example.com"}
+{"id": "H297", "kind": "password_like_safe", "text": "SM-G991B"}
+{"id": "H298", "kind": "password_like_safe", "text": "UP16AB1234"}
+{"id": "H299", "kind": "password_like_safe", "text": "SAVE20NOW"}
+{"id": "H300", "kind": "password_like_safe", "text": "WELCOME100"}
+{"id": "H301", "kind": "password_like_safe", "text": "Hello-World"}
+{"id": "H302", "kind": "password_like_safe", "text": "x86_64-pc-windows-msvc"}
+{"id": "H303", "kind": "password_like_safe", "text": "utf-8-sig"}
+{"id": "H304", "kind": "password_like_safe", "text": "en-US"}
+{"id": "H305", "kind": "password_like_safe", "text": "ISO-8859-1"}
+{"id": "H306", "kind": "password_like_safe", "text": "Win32_Process"}
+{"id": "H307", "kind": "password_like_safe", "text": "Python3.12"}
+{"id": "H308", "kind": "password_like_safe", "text": "B.Tech-CSE-2028"}
+{"id": "H309", "kind": "password_like_safe", "text": "COVID-19"}
+{"id": "H310", "kind": "password_like_safe", "text": "Wi-Fi_5G"}
+{"id": "H311", "kind": "password_like_safe", "text": "iPhone15Pro"}
+{"id": "H312", "kind": "password_like_safe", "text": "OAuth2.0"}
+{"id": "H313", "kind": "password_like_safe", "text": "e-commerce"}
+{"id": "H314", "kind": "password_like_safe", "text": "React18"}
+{"id": "H315", "kind": "password_like_safe", "text": "ES2022"}
+{"id": "H316", "kind": "password_like_safe", "text": "@types/node"}
+{"id": "H317", "kind": "password_like_safe", "text": "node_modules/.bin"}
+{"id": "H318", "kind": "password_like_safe", "text": "k8s-cluster-01"}
+{"id": "H319", "kind": "password_like_safe", "text": "README.md"}
+{"id": "H320", "kind": "password_like_safe", "text": "package-lock.json"}
+{"id": "H321", "kind": "password_like_safe", "text": "docker-compose.yml"}
+{"id": "H322", "kind": "password_like_safe", "text": "MyComponent.tsx"}
+{"id": "H323", "kind": "password_like_safe", "text": "test_store.py"}
+{"id": "H324", "kind": "password_like_safe", "text": "Q4-FY25-Results"}
+{"id": "H325", "kind": "password_like_safe", "text": "Sec-A_Group-3"}
+{"id": "H326", "kind": "password_like_safe", "text": "Lab_Exp_07"}
+{"id": "H327", "kind": "password_like_safe", "text": "DSA-Sheet-450"}
+{"id": "H328", "kind": "password_like_safe", "text": "ubuntu-22.04-desktop-amd64.iso"}
+{"id": "H329", "kind": "password_like_safe", "text": "WhatsApp Image 2024-11-02 at 21.14.03"}
+{"id": "H330", "kind": "password_like_safe", "text": "Final_Final_v2(1).docx"}
+{"id": "H331", "kind": "password_like_safe", "text": "NAMAN_RESUME_2026.pdf"}
+{"id": "H332", "kind": "password_like_safe", "text": "CS-301"}
+{"id": "H333", "kind": "password_like_safe", "text": "KCS-501"}
+{"id": "H334", "kind": "password_like_safe", "text": "BCS-503"}
+{"id": "H335", "kind": "password_like_safe", "text": "AKTU-2026"}
+{"id": "H336", "kind": "otp_like_safe", "text": "Room 302"}
+{"id": "H337", "kind": "otp_like_safe", "text": "Chapter 7"}
+{"id": "H338", "kind": "otp_like_safe", "text": "Call me in 10 min"}
+{"id": "H339", "kind": "otp_like_safe", "text": "Bus no. 238"}
+{"id": "H340", "kind": "otp_like_safe", "text": "Table 14"}
+{"id": "H341", "kind": "otp_like_safe", "text": "Gate 3B"}
+{"id": "H342", "kind": "otp_like_safe", "text": "Floor 11"}
+{"id": "H343", "kind": "otp_like_safe", "text": "Sector 62, Noida"}
+{"id": "H344", "kind": "otp_like_safe", "text": "Plot 48, Phase 2"}
+{"id": "H345", "kind": "otp_like_safe", "text": "Version 2024.3"}
+{"id": "H346", "kind": "otp_like_safe", "text": "Exam on 12/12"}
+{"id": "H347", "kind": "otp_like_safe", "text": "Marks 87"}
+{"id": "H348", "kind": "otp_like_safe", "text": "Rank 1543"}
+{"id": "H349", "kind": "otp_like_safe", "text": "Q1 2026"}
+{"id": "H350", "kind": "otp_like_safe", "text": "Seat 23A"}
+{"id": "H351", "kind": "otp_like_safe", "text": "Platform 5"}
+{"id": "H352", "kind": "otp_like_safe", "text": "Block C, Room 214"}
+{"id": "H353", "kind": "otp_like_safe", "text": "Lecture 18"}
+{"id": "H354", "kind": "otp_like_safe", "text": "Unit 4 notes"}
+{"id": "H355", "kind": "prose_general", "text": "Kal 10 baje lab mein milte hain, DBMS ka record le aana."}
+{"id": "H356", "kind": "prose_general", "text": "मैं कल कॉलेज नहीं आऊँगा।"}
+{"id": "H357", "kind": "prose_general", "text": "Happy birthday bhai! 🎉 Party kab de raha hai?"}
+{"id": "H358", "kind": "prose_general", "text": "Meeting moved to Thursday 3 PM, same Zoom link."}
+{"id": "H359", "kind": "prose_general", "text": "The quick brown fox jumps over the lazy dog."}
+{"id": "H360", "kind": "prose_general", "text": "KIET Group of Institutions, Delhi-NCR, Meerut Road (NH-58), Ghaziabad 201206"}
+{"id": "H361", "kind": "prose_general", "text": "Add 2 cups of rice, 4 cups of water, a pinch of salt and cook for 15 minutes."}
+{"id": "H362", "kind": "prose_general", "text": "Can you review my PR when you get a chance?"}
+{"id": "H363", "kind": "prose_general", "text": "Thanks for the referral! I've applied for the SDE intern role."}
+{"id": "H364", "kind": "prose_general", "text": "Reminder: submit the mini project report by Friday."}
+{"id": "H365", "kind": "prose_general", "text": "Bro notes bhej de OS ke, unit 3 wale"}
+{"id": "H366", "kind": "prose_general", "text": "Let's sync tomorrow at 11 to plan the sprint."}
+{"id": "H367", "kind": "prose_general", "text": "Dear Sir, I request leave for 2 days due to fever."}
+{"id": "H368", "kind": "prose_general", "text": "The mitochondria is the powerhouse of the cell."}
+{"id": "H369", "kind": "prose_general", "text": "Time complexity is O(n log n) because of the sort."}
+{"id": "H370", "kind": "prose_general", "text": "We're out of milk, eggs and bread."}
+{"id": "H371", "kind": "prose_general", "text": "Hostel mess menu: rajma chawal on Monday, paneer on Wednesday."}
+{"id": "H372", "kind": "prose_general", "text": "I'll be 10 minutes late, stuck in traffic near Lal Kuan."}
+{"id": "H373", "kind": "prose_general", "text": "Interview scheduled: 14 Nov, 2:00 PM, Google Meet."}
+{"id": "H374", "kind": "prose_general", "text": "Apply by 30 Nov. Eligibility: B.Tech 2027/2028 batch, CGPA 7+."}
+{"id": "H375", "kind": "prose_general", "text": "Congratulations! You have been shortlisted for the next round."}
+{"id": "H376", "kind": "prose_general", "text": "Package delivered to the front desk at 6:42 PM."}
+{"id": "H377", "kind": "prose_general", "text": "Bhaiya, wifi password kya hai hostel ka?"}
+{"id": "H378", "kind": "prose_general", "text": "Docker containers share the host kernel; VMs don't."}
+{"id": "H379", "kind": "prose_general", "text": "Remember to push the branch before you leave."}
+{"id": "H380", "kind": "prose_general", "text": "Order summary: 2 x Masala Dosa, 1 x Filter Coffee"}
+{"id": "H381", "kind": "prose_general", "text": "Pay ₹250 to Rahul for the trip fuel."}
+{"id": "H382", "kind": "prose_general", "text": "Your Uber is arriving in 3 minutes. Look for the white Swift Dzire."}
+{"id": "H383", "kind": "public_key_material", "text": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp3KJ/OQAOlyzGE77ZG4t\nmPSV9Wag2Yidoue/Onet7lG1vERLoZu9huztvGUnLjDk9+S7cluvDEVan+9O9TJ7\nUNhsUj2RHgSiJ3teUFHU4kO4P+saIu/hCxUOiKGU1h71RtB8Bi+vBToTRJrGRR3R\nkHtSUOaNHiUWyDcfVGtQl8tQQY1G3T3/GlNkA5b57MUhhWzcuCdJxd0JlcN3H/yr\nY3/SX77YfwhTOXtvnjwAnnKPRGxZBvnQUaFnBO0Rk7DaB01U6UVLyAiAZxxg4JNb\n1KgmINvOCX4a+wKtlOoevdmQ4nze4XNHZK5mhqGQZe7KRQC7z7QhzogigkCHL6fR\n+QIDAQAB\n-----END PUBLIC KEY-----\n"}
+{"id": "H384", "kind": "public_key_material", "text": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE02zshHrWTV/P9WM1HhsBxtPqRIYj\nDig6fR9eRrbCbJeYFypCeOsWUkE7AwdJ6fhcXVIQ/rfHCw1Saq58wQgNJA==\n-----END PUBLIC KEY-----\n"}
+{"id": "H385", "kind": "public_key_material", "text": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGtfJcNYyiuDeb7yKBsIMeJvFRqgtz6Ltxi1hiQKoBOb naman@laptop"}
+{"id": "H386", "kind": "public_key_material", "text": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCncon85AA6XLMYTvtkbi2Y9JX1ZqDZiJ2i5786d63uUbW8REuhm72G7O28ZScuMOT35LtyW68MRVqf7071MntQ2GxSPZEeBKIne15QUdTiQ7g/6xoi7+ELFQ6IoZTWHvVG0HwGL68FOhNEmsZFHdGQe1JQ5o0eJRbINx9Ua1CXy1BBjUbdPf8aU2QDlvnsxSGFbNy4J0nF3QmVw3cf/Ktjf9Jfvth/CFM5e2+ePACeco9EbFkG+dBRoWcE7RGTsNoHTVTpRUvICIBnHGDgk1vUqCYg284Jfhr7Aq2U6h692ZDifN7hc0dkrmaGoZBl7spFALvPtCHOiCKCQIcvp9H5 deploy@ci"}
+{"id": "H387", "kind": "public_key_material", "text": "-----BEGIN CERTIFICATE-----\nMIICvDCCAaSgAwIBAgIUHXS/7LBlxQlfIwKtjADPacNA0r8wDQYJKoZIhvcNAQEL\nBQAwGDEWMBQGA1UEAwwNY2xpcG1pbmQudGVzdDAeFw0yNjExMDkwMDAwMDBaFw0y\nNzExMDkwMDAwMDBaMBgxFjAUBgNVBAMMDWNsaXBtaW5kLnRlc3QwggEiMA0GCSqG\nSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCncon85AA6XLMYTvtkbi2Y9JX1ZqDZiJ2i\n5786d63uUbW8REuhm72G7O28ZScuMOT35LtyW68MRVqf7071MntQ2GxSPZEeBKIn\ne15QUdTiQ7g/6xoi7+ELFQ6IoZTWHvVG0HwGL68FOhNEmsZFHdGQe1JQ5o0eJRbI\nNx9Ua1CXy1BBjUbdPf8aU2QDlvnsxSGFbNy4J0nF3QmVw3cf/Ktjf9Jfvth/CFM5\ne2+ePACeco9EbFkG+dBRoWcE7RGTsNoHTVTpRUvICIBnHGDgk1vUqCYg284Jfhr7\nAq2U6h692ZDifN7hc0dkrmaGoZBl7spFALvPtCHOiCKCQIcvp9H5AgMBAAEwDQYJ\nKoZIhvcNAQELBQADggEBAJ+VZSOIME3+DsgeIeNCx/VxzKq/phPxodQbMEJHZUQh\n5z1N4TE+1Z27ZfER4HissaAlBxa5xDHac0Mv7An9FtptcXexMatoD9VKUlVCOfjl\nG73+ojn/4cPy/+5DvXAhbECv8SpWKCksKcNNJcIRVURrOblKBmerSnlP+azIZOMY\nXzmVecHRGzXU1wPWi2Z4Q8UpetKVIcVabgP8DtTMwPhc+9Bb6SBDG3rWp+ZR/MLQ\nXWvnRCc6n2g+ELO5bAEydkf+50BK3YV/P8ae1xgzVPI0EhRUQBfkFCUG5TRqy86u\nFDmM5nLIhNnw80q0tnTPlnL2/dTTvht6vSyICr4Cngo=\n-----END CERTIFICATE-----\n"}
+{"id": "H388", "kind": "public_key_material", "text": "-----BEGIN CERTIFICATE REQUEST-----\nMIHTMHoCAQAwGDEWMBQGA1UEAwwNY2xpcG1pbmQudGVzdDBZMBMGByqGSM49AgEG\nCCqGSM49AwEHA0IABNNs7IR61k1fz/VjNR4bAcbT6kSGIw4oOn0fXka2wmyXmBcq\nQnjrFlJBOwMHSen4XF1SEP63xwsNUmqufMEIDSSgADAKBggqhkjOPQQDAgNJADBG\nAiEA5gjxodtXJpTPJ+6S+AOWlWqqx/Xey8+dvNAr8O4BD0YCIQDtdkc3GNtKmTbT\nQ6hgFNhMte8I8o4nmO5ucGp4P25dDA==\n-----END CERTIFICATE REQUEST-----\n"}
+{"id": "H389", "kind": "public_key_material", "text": "github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGtfJcNYyiuDeb7yKBsIMeJvFRqgtz6Ltxi1hiQKoBOb"}
+{"id": "H390", "kind": "public_key_material", "text": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\ntOOUS8oLJPc48W05Pzq8BKgO5mw2XgXbdvwhMB1MvxGkgmjz1R2yjQeNslhPYFrw\nYmX6Y3uHrslMi1qH5pl58aJHOM6t5mCSiLcwy4dMGyp2f3DrZKd88AzMnPcakBZj\nGFzlbmRHr/X8jnuOKIKoWerYaFGT2/1eTZU7xh6d5q4vNOPhz676/XcOqH9iPcQ8\nbMPAlBubSjnwdIiCEZ7hjOEwQM2ymQU+uP+v9zGtRKHkBa2/NDb/P449zzl4zSF+\nhLGvlViJ28BlGYvcFDKG/M5VGtlqCiuCcJyEY+MgTI1pcTz+/nRNcge/ewbEItqc\nPzANy71i2lE8+u3r3AZEjP/eJXfkMWuePzZGsmmxP8vkB7nHaXmN2uWp4n5vI3yh\n=AbCd\n-----END PGP PUBLIC KEY BLOCK-----"}
+{"id": "H391", "kind": "public_key_material", "text": "-----BEGIN PGP SIGNATURE-----\n\ndM146SDwIbSU5Jd4M0sO31ljQEpUxQkYzVFMvVgwyKJdPUx7PrHeqpU1NNURWoBR\nLzmd8fm1sDXS/QkKO2mk7Aa2KucxpI0ggoaLP03HYt3/L5SCA1Sik1ahfXTVsiZm\naFVzCQJAlK5ChWtlEyvOmeG0Vj226JFZv52UCPa5Q0siwGIAKURp2l/CgsPme2LU\n-----END PGP SIGNATURE-----"}
+{"id": "H392", "kind": "public_key_material", "text": "SHA256:6nM0tJdHw29IQbNLjr+ebQD17wJTucFXdSX/T4e223s"}
