@@ -34,32 +34,45 @@ class Index:
         self.texts: list[str] = []
         self.lower: list[str] = []
         self.created: list[int] = []
-        self.matrix = np.zeros((0, embedder.dim), dtype=np.float32)
+        self._vectors: list[np.ndarray] = []
+        self._by_text: dict[str, int] = {}
+        self._matrix: np.ndarray | None = None  # stacked lazily: re-stacking on every add was O(n^2) (#6)
+
+    @property
+    def matrix(self) -> np.ndarray:
+        if self._matrix is None:
+            self._matrix = (np.stack(self._vectors) if self._vectors
+                            else np.zeros((0, self.embedder.dim), dtype=np.float32))
+        return self._matrix
 
     def add(self, row_id: int, text: str, created_ms: int, embedding: np.ndarray) -> list[int]:
         """Add one item; returns ids of older copies of the same text, which the caller deletes."""
-        dupes = [i for i, t in zip(self.ids, self.texts, strict=True) if t == text]
-        for d in dupes:
-            self.remove(d)
+        old = self._by_text.get(text)
+        if old is not None:
+            self.remove(old)
         self.ids.append(row_id)
         self.texts.append(text)
         self.lower.append(text.lower())
         self.created.append(created_ms)
-        self.matrix = np.vstack([self.matrix, embedding.astype(np.float32)[None, :]])
-        return dupes
+        self._vectors.append(np.array(embedding, dtype=np.float32))  # a copy: clear() zeroes it
+        self._by_text[text] = row_id
+        self._matrix = None
+        return [] if old is None else [old]
 
     def remove(self, row_id: int) -> None:
         if row_id in self.ids:
             i = self.ids.index(row_id)
-            for lst in (self.ids, self.texts, self.lower, self.created):
+            self._by_text.pop(self.texts[i], None)
+            for lst in (self.ids, self.texts, self.lower, self.created, self._vectors):
                 del lst[i]
-            self.matrix = np.delete(self.matrix, i, axis=0)
+            self._matrix = None
 
     def clear(self) -> None:
-        """Called on lock. Zeroes the matrix in place; Python strings can't be zeroed, only dropped."""
-        self.matrix.fill(0)
-        self.matrix = np.zeros((0, self.embedder.dim), dtype=np.float32)
-        self.ids, self.texts, self.lower, self.created = [], [], [], []
+        """Called on lock. Zeroes vectors in place; Python strings can't be zeroed, only dropped."""
+        for array in [*self._vectors, *([self._matrix] if self._matrix is not None else [])]:
+            array.fill(0)
+        self.ids, self.texts, self.lower, self.created, self._vectors = [], [], [], [], []
+        self._by_text, self._matrix = {}, None
 
     def __len__(self) -> int:
         return len(self.ids)
