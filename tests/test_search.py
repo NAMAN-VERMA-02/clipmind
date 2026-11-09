@@ -51,3 +51,21 @@ def test_remove_and_clear(index):
     matrix = index.matrix
     index.clear()
     assert len(index) == 0 and not matrix.any()  # old matrix zeroed in place
+
+
+def test_building_a_10k_index_is_linear():
+    """Regression for #6: re-stacking the matrix on every add made a 10k unlock take ~2 minutes."""
+    import time
+
+    idx = Index(ToyEmbedder())
+    vec = np.ones(26, dtype=np.float32)
+    start = time.perf_counter()
+    for i in range(10_000):
+        idx.add(i, f"clip {i}", i, vec)
+    assert idx.matrix.shape == (10_000, 26)
+    assert time.perf_counter() - start < 5  # was ~112 s before the fix
+
+
+def test_duplicate_lookup_survives_remove(index):
+    index.remove(0)
+    assert index.add(7, "docker compose up", 9_000, index.embedder.embed("docker compose up")) == []
