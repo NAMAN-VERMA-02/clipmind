@@ -1,0 +1,1128 @@
+{
+ "retrieved": "2026-11-10",
+ "note": "Published test card numbers, copied from the source pages. Stripe's deliberately invalid 4242424242424241 is left out.",
+ "cards": [
+  {
+   "brand": "Visa",
+   "number": "4242424242424242",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (debit)",
+   "number": "4000056655665556",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Mastercard",
+   "number": "5555555555554444",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Mastercard (2-series)",
+   "number": "2223003122003222",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Mastercard (debit)",
+   "number": "5200828282828210",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Mastercard (prepaid)",
+   "number": "5105105105105100",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "American Express",
+   "number": "378282246310005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "American Express",
+   "number": "371449635398431",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Discover",
+   "number": "6011111111111117",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Discover",
+   "number": "6011000990139424",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Discover (debit)",
+   "number": "6011981111111113",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Diners Club",
+   "number": "3056930009020004",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Diners Club (14-digit)",
+   "number": "36227206271667",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "BCcard and DinaCard",
+   "number": "6555900000604105",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "JCB",
+   "number": "3566002020360505",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "UnionPay",
+   "number": "6200000000000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "UnionPay (debit)",
+   "number": "6200000000000047",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Cartes Bancaires/Visa",
+   "number": "4000002500001001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Cartes Bancaires/Mastercard",
+   "number": "5555552500001001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "eftpos Australia/Visa",
+   "number": "4000050360000001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "eftpos Australia/Mastercard",
+   "number": "5555050360000080",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa AR",
+   "number": "4000000320000021",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa BR",
+   "number": "4000000760000002",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa CA",
+   "number": "4000001240000000",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa CL",
+   "number": "4000001520000001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa CO",
+   "number": "4000001700000003",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa CR",
+   "number": "4000001880000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa EC",
+   "number": "4000002180000000",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa MX",
+   "number": "4000004840008001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Carnet MX",
+   "number": "5062210000000009",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa PA",
+   "number": "4000005910000000",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa PY",
+   "number": "4000006000000066",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa PE",
+   "number": "4000006040000068",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa UY",
+   "number": "4000008580000003",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa AE",
+   "number": "4000007840000001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Mastercard AE",
+   "number": "5200007840000022",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa AT",
+   "number": "4000000400000008",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa BE",
+   "number": "4000000560000004",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa BG",
+   "number": "4000001000000000",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa BY",
+   "number": "4000001120000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa HR",
+   "number": "4000001910000009",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa CY",
+   "number": "4000001960000008",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa CZ",
+   "number": "4000002030000002",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa DK",
+   "number": "4000002080000001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa EE",
+   "number": "4000002330000009",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa FI",
+   "number": "4000002460000001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa FR",
+   "number": "4000002500000003",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa DE",
+   "number": "4000002760000016",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa GI",
+   "number": "4000002920000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa GR",
+   "number": "4000003000000030",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa HU",
+   "number": "4000003480000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa IE",
+   "number": "4000003720000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa IT",
+   "number": "4000003800000008",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa LV",
+   "number": "4000004280000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa LI",
+   "number": "4000004380000004",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa LT",
+   "number": "4000004400000000",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa LU",
+   "number": "4000004420000006",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa MT",
+   "number": "4000004700000007",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa NL",
+   "number": "4000005280000002",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa NO",
+   "number": "4000005780000007",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa PL",
+   "number": "4000006160000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa PT",
+   "number": "4000006200000007",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa RO",
+   "number": "4000006420000001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa SA",
+   "number": "4000006820000007",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa SI",
+   "number": "4000007050000006",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa SK",
+   "number": "4000007030000001",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa ES",
+   "number": "4000007240000007",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa SE",
+   "number": "4000007520000008",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa CH",
+   "number": "4000007560000009",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa GB",
+   "number": "4000008260000000",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (debit) GB",
+   "number": "4000058260000005",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Mastercard GB",
+   "number": "5555558265554449",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa AU",
+   "number": "4000000360000006",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa CN",
+   "number": "4000001560000002",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa HK",
+   "number": "4000003440000004",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa IN",
+   "number": "4000003560000008",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa JP",
+   "number": "4000003920000003",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "JCB JP",
+   "number": "3530111333300000",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa MY",
+   "number": "4000004580000002",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa NZ",
+   "number": "4000005540000008",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa SG",
+   "number": "4000007020000003",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa TW",
+   "number": "4000001580000008",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (credit) TH",
+   "number": "4000007640000003",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (debit) TH",
+   "number": "4000057640000008",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa FSA/HSA",
+   "number": "4000051230000072",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Mastercard FSA",
+   "number": "5200828282828897",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (decline after attaching)",
+   "number": "4000000000000341",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (fraudulent async)",
+   "number": "4061219946393810",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (fraudulent sync)",
+   "number": "4000000000000259",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Discover (fraudulent)",
+   "number": "6026507838377928",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (not received)",
+   "number": "4000000000002685",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (inquiry)",
+   "number": "4000000000001976",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (early fraud warning)",
+   "number": "4000000000005423",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (multiple disputes)",
+   "number": "4000000404000079",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (CE 3.0)",
+   "number": "4000000404000038",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Visa (compliance)",
+   "number": "4000008400000779",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Mastercard (compliance)",
+   "number": "5105008400000002",
+   "luhn_valid": true,
+   "source": "https://docs.stripe.com/testing"
+  },
+  {
+   "brand": "Amex",
+   "number": "3700 0000 0000 002",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Amex",
+   "number": "3700 0000 0100 018",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "BCMC / Mastercard Debit",
+   "number": "5127 8809 9999 9990",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "BCMC / Maestro",
+   "number": "6703 4444 4444 4449",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "BCMC / Visa Debit",
+   "number": "4871 0499 9999 9910",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Cartes Bancaires",
+   "number": "4360 0000 0100 0005",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa FR",
+   "number": "4035 5010 0000 0008",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Debit / Cartes Bancaires",
+   "number": "4035 5014 2814 6300",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "UnionPay CN",
+   "number": "8171 9999 2766 0000",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "UnionPay CN (19-digit)",
+   "number": "8171 9999 0000 0000 021",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "UnionPay CN",
+   "number": "6243 0300 0000 0001",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Dankort",
+   "number": "5019 5555 4444 5555",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa / Dankort",
+   "number": "4571 0000 0000 0001",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Diners US",
+   "number": "3600 6666 3333 44",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Diners NL",
+   "number": "3607 0500 0010 20",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Discover US",
+   "number": "6011 6011 6011 6611",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Discover GB",
+   "number": "6445 6445 6445 6445",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard / Eftpos",
+   "number": "4687 3801 0001 0006",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Eftpos",
+   "number": "4089 6700 0000 0014",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Elo BR",
+   "number": "5066 9911 1111 1118",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Hipercard BR",
+   "number": "6062 8288 8866 6688",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "JCB",
+   "number": "3569 9900 1009 5841",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Maestro US",
+   "number": "6771 7980 2100 0008",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Maestro US",
+   "number": "6771 7980 2100 0016",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Commercial Debit",
+   "number": "2222 4000 7000 0005",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard",
+   "number": "5555 3412 4444 1115",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard PL",
+   "number": "5577 0000 5577 0004",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard GB",
+   "number": "5555 4444 3333 1111",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Corporate",
+   "number": "2222 4107 4036 0010",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Corporate Credit",
+   "number": "2222 4107 0000 0002",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Credit CA",
+   "number": "2222 4000 1000 0008",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Credit NL",
+   "number": "2223 0000 4841 0010",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Credit FR",
+   "number": "5130 2900 0000 0009",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Debit CA",
+   "number": "2222 4000 6000 0007",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Debit NL",
+   "number": "2223 5204 4356 0010",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Fleet",
+   "number": "2222 4000 3000 0004",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Premium",
+   "number": "5100 0600 0000 0002",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Purchasing",
+   "number": "2222 4000 5000 0009",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Prepaid BR",
+   "number": "5103 2219 1119 9245",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "UATP",
+   "number": "1354 1001 4004 955",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Debit / Accel",
+   "number": "4400 0020 0000 0004",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Debit / PULSE",
+   "number": "4000 0330 0330 0335",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Debit / Accel",
+   "number": "5002 5100 0000 0013",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard Debit / PULSE",
+   "number": "5413 3300 3300 3303",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Discover Debit / Accel",
+   "number": "6011 6099 0000 0003",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Discover Debit / PULSE",
+   "number": "6445 6450 0000 0002",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Classic NL",
+   "number": "4111 1111 4555 1142",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Debit FR (8-digit BIN)",
+   "number": "4111 1120 1426 7661",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Classic ES",
+   "number": "4988 4388 4388 4305",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Classic NL",
+   "number": "4166 6766 6766 6746",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Classic PL",
+   "number": "4646 4646 4646 4644",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Commercial Credit",
+   "number": "4000 6200 0000 0007",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Commercial Debit",
+   "number": "4000 0600 0000 0006",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Commercial Premium Credit",
+   "number": "4293 1891 0000 0008",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Commercial Premium Debit IN",
+   "number": "4988 0800 0000 0000",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Consumer",
+   "number": "4111 1111 1111 1111",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Corporate",
+   "number": "4444 3333 2222 1111",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Corporate Credit",
+   "number": "4001 5900 0000 0001",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Corporate Debit IN",
+   "number": "4000 1800 0000 0002",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Credit",
+   "number": "4000 0200 0000 0000",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Debit IN",
+   "number": "4000 1600 0000 0004",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Debit AU",
+   "number": "4002 6900 0000 0008",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Debit US",
+   "number": "4400 0000 0000 0008",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Fleet Credit",
+   "number": "4484 6000 0000 0004",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Fleet Debit",
+   "number": "4607 0000 0000 0009",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Gold",
+   "number": "4977 9494 9494 9497",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Premium Credit AZ",
+   "number": "4000 6400 0000 0005",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Premium Credit TW",
+   "number": "4003 5500 0000 0003",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Premium Debit MU",
+   "number": "4000 7600 0000 0001",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Premium Debit RU",
+   "number": "4017 3400 0000 0003",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Purchasing Credit",
+   "number": "4005 5190 0000 0006",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Purchasing Debit",
+   "number": "4131 8400 0000 0003",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Credit US",
+   "number": "4151 5000 0000 0008",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa Proprietary",
+   "number": "4199 3500 0000 0002",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa BR",
+   "number": "4001 0200 0000 0009",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa PL (19-digit)",
+   "number": "4013 2500 0000 0000 006",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "UnionPay Credit",
+   "number": "6250 9470 0000 0014",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "UnionPay Debit",
+   "number": "6250 9460 0000 0016",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Diners",
+   "number": "3056 9309 0259 04",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "JCB / Mastercard",
+   "number": "3566 1111 1111 1113",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Maestro",
+   "number": "5000 5500 0000 0029",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Mastercard",
+   "number": "5454 5454 5454 5454",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa",
+   "number": "4917 6100 0000 0000",
+   "luhn_valid": true,
+   "source": "https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers"
+  },
+  {
+   "brand": "Visa",
+   "number": "4384 7968 2770 3274",
+   "luhn_valid": true,
+   "source": "https://razorpay.com/docs/payments/payments/test-card-details/"
+  },
+  {
+   "brand": "Mastercard",
+   "number": "5312 6865 5677 9641",
+   "luhn_valid": true,
+   "source": "https://razorpay.com/docs/payments/payments/test-card-details/"
+  },
+  {
+   "brand": "Diners",
+   "number": "6594 7300 0000 0001",
+   "luhn_valid": true,
+   "source": "https://razorpay.com/docs/payments/payments/test-card-details/"
+  },
+  {
+   "brand": "Visa (international)",
+   "number": "4239 5360 0631 5640",
+   "luhn_valid": true,
+   "source": "https://razorpay.com/docs/payments/payments/test-card-details/"
+  },
+  {
+   "brand": "Mastercard (international)",
+   "number": "5421 1393 0609 0628",
+   "luhn_valid": true,
+   "source": "https://razorpay.com/docs/payments/payments/test-card-details/"
+  },
+  {
+   "brand": "Amex (international)",
+   "number": "3779 849088 69514",
+   "luhn_valid": true,
+   "source": "https://razorpay.com/docs/payments/payments/test-card-details/"
+  },
+  {
+   "brand": "Discover (international)",
+   "number": "6011 0833 2733 7267",
+   "luhn_valid": true,
+   "source": "https://razorpay.com/docs/payments/payments/test-card-details/"
+  }
+ ]
+}

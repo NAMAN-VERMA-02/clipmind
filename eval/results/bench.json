@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "date": "2026-11-10",
+  "git": "056ec65",
+  "clipmind": "0.1.0",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "command": "python eval/bench.py",
+  "cpu": "12th Gen Intel(R) Core(TM) i3-1215U",
+  "cores_logical": 8,
+  "ram_gb": 7.7,
+  "os": "Windows-11-10.0.26300-SP0",
+  "cpu_busy_before_run_pct": 53.6
+ },
+ "models": {
+  "potion-base-8M": {
+   "items_stored": 9948,
+   "dropped_by_filters": 52,
+   "persist_ms": {
+    "p50": 34.327,
+    "p95": 159.523,
+    "p99": 229.321
+   },
+   "unlock_10k_s": 4.001,
+   "search_ms": {
+    "p50": 53.309,
+    "p95": 94.064,
+    "p99": 121.866,
+    "mean": 56.436
+   },
+   "db_mb": 9.8,
+   "db_bytes_per_item": 1033,
+   "memory": {
+    "cold_start_s": 14.507,
+    "locked_mb": {
+     "rss": 47.8,
+     "uss": 29.3
+    },
+    "unlocked_10k_mb": {
+     "rss": 77.1,
+     "uss": 57.7
+    }
+   }
+  },
+  "potion-retrieval-32M": {
+   "items_stored": 9948,
+   "dropped_by_filters": 52,
+   "persist_ms": {
+    "p50": 60.211,
+    "p95": 184.041,
+    "p99": 245.366
+   },
+   "unlock_10k_s": 2.952,
+   "search_ms": {
+    "p50": 42.664,
+    "p95": 75.039,
+    "p99": 101.432,
+    "mean": 46.325
+   },
+   "db_mb": 13.94,
+   "db_bytes_per_item": 1470,
+   "memory": {
+    "cold_start_s": 4.636,
+    "locked_mb": {
+     "rss": 54.5,
+     "uss": 36.0
+    },
+    "unlocked_10k_mb": {
+     "rss": 104.9,
+     "uss": 85.4
+    }
+   }
+  }
+ },
+ "quarantine": {
+  "KeePassXC default": "discarded",
+  "KeePass default": "discarded",
+  "Bitwarden 10 s": "discarded",
+  "Bitwarden 20 s": "discarded",
+  "Bitwarden 30 s": "discarded",
+  "Bitwarden 1 min": "discarded",
+  "1Password 90 s": "discarded",
+  "Bitwarden 2 min": "discarded",
+  "Bitwarden 5 min": "persisted"
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "meta": {
+  "date": "2026-11-10",
+  "git": "056ec65",
+  "clipmind": "0.1.0",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "command": "python eval/search_eval.py",
+  "items": 10000,
+  "queries": 100
+ },
+ "models": {
+  "potion-base-8M": {
+   "embed_10k_items_s": 5.68,
+   "items_indexed": 10000,
+   "modes": {
+    "hybrid": {
+     "all": {
+      "n": 100,
+      "recall@1": 0.39,
+      "recall@5": 0.48,
+      "recall@10": 0.52,
+      "mrr@10": 0.4283
+     },
+     "type=keyword": {
+      "n": 30,
+      "recall@1": 0.9667,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr@10": 0.9733
+     },
+     "type=paraphrase": {
+      "n": 39,
+      "recall@1": 0.1282,
+      "recall@5": 0.1795,
+      "recall@10": 0.2051,
+      "mrr@10": 0.1571
+     },
+     "type=vague": {
+      "n": 31,
+      "recall@1": 0.1613,
+      "recall@5": 0.3548,
+      "recall@10": 0.4516,
+      "mrr@10": 0.2419
+     },
+     "author=claude": {
+      "n": 100,
+      "recall@1": 0.39,
+      "recall@5": 0.48,
+      "recall@10": 0.52,
+      "mrr@10": 0.4283
+     }
+    },
+    "semantic": {
+     "all": {
+      "n": 100,
+      "recall@1": 0.38,
+      "recall@5": 0.5,
+      "recall@10": 0.55,
+      "mrr@10": 0.4357
+     },
+     "type=keyword": {
+      "n": 30,
+      "recall@1": 0.8667,
+      "recall@5": 0.9667,
+      "recall@10": 1.0,
+      "mrr@10": 0.9144
+     },
+     "type=paraphrase": {
+      "n": 39,
+      "recall@1": 0.1282,
+      "recall@5": 0.1795,
+      "recall@10": 0.2051,
+      "mrr@10": 0.1571
+     },
+     "type=vague": {
+      "n": 31,
+      "recall@1": 0.2258,
+      "recall@5": 0.4516,
+      "recall@10": 0.5484,
+      "mrr@10": 0.3228
+     },
+     "author=claude": {
+      "n": 100,
+      "recall@1": 0.38,
+      "recall@5": 0.5,
+      "recall@10": 0.55,
+      "mrr@10": 0.4357
+     }
+    },
+    "keyword": {
+     "all": {
+      "n": 100,
+      "recall@1": 0.29,
+      "recall@5": 0.31,
+      "recall@10": 0.32,
+      "mrr@10": 0.2996
+     },
+     "type=keyword": {
+      "n": 30,
+      "recall@1": 0.9333,
+      "recall@5": 0.9667,
+      "recall@10": 1.0,
+      "mrr@10": 0.9486
+     },
+     "type=paraphrase": {
+      "n": 39,
+      "recall@1": 0.0,
+      "recall@5": 0.0256,
+      "recall@10": 0.0256,
+      "mrr@10": 0.0128
+     },
+     "type=vague": {
+      "n": 31,
+      "recall@1": 0.0323,
+      "recall@5": 0.0323,
+      "recall@10": 0.0323,
+      "mrr@10": 0.0323
+     },
+     "author=claude": {
+      "n": 100,
+      "recall@1": 0.29,
+      "recall@5": 0.31,
+      "recall@10": 0.32,
+      "mrr@10": 0.2996
+     }
+    }
+   }
+  },
+  "potion-retrieval-32M": {
+   "embed_10k_items_s": 4.88,
+   "items_indexed": 10000,
+   "modes": {
+    "hybrid": {
+     "all": {
+      "n": 100,
+      "recall@1": 0.38,
+      "recall@5": 0.44,
+      "recall@10": 0.5,
+      "mrr@10": 0.4111
+     },
+     "type=keyword": {
+      "n": 30,
+      "recall@1": 0.9667,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr@10": 0.9778
+     },
+     "type=paraphrase": {
+      "n": 39,
+      "recall@1": 0.1282,
+      "recall@5": 0.1795,
+      "recall@10": 0.2564,
+      "mrr@10": 0.1559
+     },
+     "type=vague": {
+      "n": 31,
+      "recall@1": 0.129,
+      "recall@5": 0.2258,
+      "recall@10": 0.3226,
+      "mrr@10": 0.1839
+     },
+     "author=claude": {
+      "n": 100,
+      "recall@1": 0.38,
+      "recall@5": 0.44,
+      "recall@10": 0.5,
+      "mrr@10": 0.4111
+     }
+    },
+    "semantic": {
+     "all": {
+      "n": 100,
+      "recall@1": 0.39,
+      "recall@5": 0.53,
+      "recall@10": 0.57,
+      "mrr@10": 0.4495
+     },
+     "type=keyword": {
+      "n": 30,
+      "recall@1": 0.9333,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr@10": 0.9556
+     },
+     "type=paraphrase": {
+      "n": 39,
+      "recall@1": 0.1795,
+      "recall@5": 0.2308,
+      "recall@10": 0.2564,
+      "mrr@10": 0.2003
+     },
+     "type=vague": {
+      "n": 31,
+      "recall@1": 0.129,
+      "recall@5": 0.4516,
+      "recall@10": 0.5484,
+      "mrr@10": 0.2732
+     },
+     "author=claude": {
+      "n": 100,
+      "recall@1": 0.39,
+      "recall@5": 0.53,
+      "recall@10": 0.57,
+      "mrr@10": 0.4495
+     }
+    },
+    "keyword": {
+     "all": {
+      "n": 100,
+      "recall@1": 0.29,
+      "recall@5": 0.31,
+      "recall@10": 0.32,
+      "mrr@10": 0.2996
+     },
+     "type=keyword": {
+      "n": 30,
+      "recall@1": 0.9333,
+      "recall@5": 0.9667,
+      "recall@10": 1.0,
+      "mrr@10": 0.9486
+     },
+     "type=paraphrase": {
+      "n": 39,
+      "recall@1": 0.0,
+      "recall@5": 0.0256,
+      "recall@10": 0.0256,
+      "mrr@10": 0.0128
+     },
+     "type=vague": {
+      "n": 31,
+      "recall@1": 0.0323,
+      "recall@5": 0.0323,
+      "recall@10": 0.0323,
+      "mrr@10": 0.0323
+     },
+     "author=claude": {
+      "n": 100,
+      "recall@1": 0.29,
+      "recall@5": 0.31,
+      "recall@10": 0.32,
+      "mrr@10": 0.2996
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+# OTP / verification-code messages, one per line ("\n" = line break). Hand-written on 2026-11-10,
+# modelled on real Indian bank, app and email templates. NOTE: written after filters.py existed, so
+# they are not independent of the detector; several real formats the detector misses are kept on purpose.
+482913 is your OTP for login to YONO SBI. Do not share it with anyone. -SBI
+Dear Customer, 739201 is the OTP for your transaction of Rs.1,499.00 at AMAZON on HDFC Bank Card XX4521. Valid for 3 mins. Do not share. -HDFC Bank
+Your Swiggy verification code is 5821.
+Your WhatsApp code: 902-817\n\nDon't share this code with others
+G-482913 is your Google verification code.
+123456 is your Instagram code. Don't share it.
+Your Amazon OTP is 381927. Do not share it with anyone.
+Your PhonePe OTP: 6150. Valid for 10 min. Do not share with anyone.
+728193 is your one time password to login to Paytm. Do not share it with anyone.
+Your login code for Zomato is 3920
+Microsoft account security code: 4829
+Use verification code 781204 for Microsoft authentication.
+Your Uber code: 7124. Never share this code. Reply STOP ASSIST to 32665 to unsubscribe.
+Apple ID Code is: 382910. Don't share it with anyone.
+Your Steam Guard code is: 4XK7P
+OTP for your ICICI Bank Credit Card XX1004 txn of INR 2,350.00 at FLIPKART is 559102. Valid till 14:32. Do not share OTP for security reasons.
+Use OTP 304918 to verify your mobile number on IRCTC. Valid for 10 minutes.
+Dear User, your OTP for Aadhaar authentication is 671204 (valid for 10 mins). -UIDAI
+Your Axis Bank OTP for netbanking login is 882041. Never share OTP with anyone.
+Kotak: OTP 446712 for txn of Rs 820 at ZEPTO. Valid for 5 mins. Do not share with anyone.
+Hi, 1205 is your OTP to complete your Ola ride. Share it with your driver only.
+Your Rapido ride OTP is 4417
+Your Zepto delivery OTP is 8812. Share it with the delivery partner only.
+Your verification code is 552 019
+LinkedIn: Your verification code is 918273. Expires in 15 minutes.
+Your GitHub launch code: 87412035
+Facebook: 39102846 is your confirmation code
+Your Discord verification code: 418290
+Telegram code: 72914. Do not give this code to anyone, even if they say they are from Telegram!
+Your Twitter confirmation code is 641027.
+Netflix: Your sign-in code is 7720
+Your Dream11 OTP is 902113. Please do not share it with anyone.
+CRED: 330914 is your OTP to login. do not share it with anyone.
+Your Groww verification code is 718235. Valid for 5 minutes.
+Zerodha: OTP for login is 610482. Do not share.
+Your Myntra OTP is 5517 for login. Valid for 10 min.
+Dear Customer, use 993812 as your one time password for Airtel Payments Bank. Do not share.
+Your Jio OTP is 284019. Valid for 10 mins.
+Your BHIM UPI registration OTP is 771300
+Your Google Pay verification code is 120938
+Your security code is 610299. It expires in 10 minutes.
+Here is your one-time passcode: 448210
+Verification code: 902731
+Your authentication code: 7718 3302
+Enter 516209 to sign in to your Notion account.
+Your Coursera verification code is 312908
+Your Unstop OTP is 401128, valid for 15 minutes.
+Your Ajio login OTP is 7719
+Your 2FA code is 638104
+Your passcode is 991204
