@@ -1,0 +1,46 @@
+name: Bug report
+description: Something in clipmind doesn't work as described.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security problem?** Don't file it here. Use Security → Report a vulnerability (see SECURITY.md).
+        **Never paste real clipboard contents or secrets.** Use made-up values.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Copy "..." from Notepad
+        2. Press Win+Alt+V
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: clipmind version
+      placeholder: "output of: clipmind --version"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "e.g. Windows 11 24H2"
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log excerpt (optional)
+      description: "%LOCALAPPDATA%\\clipmind\\clipmind.log. It holds decisions and lengths only, never clip text."
+      render: text
