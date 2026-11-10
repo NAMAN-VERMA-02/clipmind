@@ -125,9 +125,16 @@ def hello_sign(challenge: bytes) -> bytes:
     return bytes(signed.result)
 
 
+NTE_NO_KEY = -2146893811  # 0x8009000D: "Key does not exist"
+
+
 def hello_delete() -> None:
     manager, _, _, _ = _winrt()
-    manager.delete_async(HELLO_KEY_NAME).get()
+    try:
+        manager.delete_async(HELLO_KEY_NAME).get()
+    except OSError as e:  # already gone (cancelled first setup, second wipe): deleting is idempotent (#13)
+        if e.winerror != NTE_NO_KEY:
+            raise
 
 
 # --- key pair ------------------------------------------------------------------------------------------------
