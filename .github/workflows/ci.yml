@@ -44,5 +44,16 @@ jobs:
         env:
           CLIPMIND_DATA_DIR: ${{ runner.temp }}/clipmind
         run: pytest -q
+      - name: Cache eval sources (pinned commits, SHA-256 checked)
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: eval/out/sources
+          key: eval-sources-${{ hashFiles('eval/sources.py') }}
+      - name: Filter eval (fails on regression vs eval/results/filters.json)
+        run: python -W ignore eval/filters_eval.py --check
+      - name: Search eval (fails on regression vs eval/results/search.json)
+        env:
+          CLIPMIND_DATA_DIR: ${{ runner.temp }}/clipmind
+        run: python -W ignore eval/search_eval.py --check
       - name: Audit dependencies
         run: pip-audit --skip-editable
