@@ -165,3 +165,27 @@ def test_wipe_empties_and_vacuums(tmp_path, store):
     db = sqlite3.connect(tmp_path / "history.db")
     assert db.execute("PRAGMA freelist_count").fetchone()[0] == 0
     db.close()
+
+
+def _fake_winrt(err: OSError):
+    class Manager:
+        @staticmethod
+        def delete_async(name):
+            class Op:
+                def get(self):
+                    raise err
+
+            return Op()
+
+    return lambda: (Manager, None, None, None)
+
+
+def test_hello_delete_tolerates_a_missing_key(monkeypatch):  # #13: wipe crashed if the Hello key was already gone
+    monkeypatch.setattr(keys, "_winrt", _fake_winrt(OSError(None, "Key does not exist.", None, keys.NTE_NO_KEY)))
+    keys.hello_delete()
+
+
+def test_hello_delete_still_raises_other_errors(monkeypatch):
+    monkeypatch.setattr(keys, "_winrt", _fake_winrt(OSError(None, "Access is denied.", None, 5)))
+    with pytest.raises(OSError):
+        keys.hello_delete()
