@@ -153,7 +153,7 @@ Optional `%APPDATA%\clipmind\config.json`. Lists are **added** to the built-in o
 ## Limitations
 
 - **Text only.** Images, files and rich text aren't captured.
-- **The real Windows Hello prompt is the least-tested path.** CI can't run Hello, so the tests and the bench use a stand-in signer. The real path has its own test (`pytest -m hello`), which needs a person at the machine.
+- **The real Windows Hello path is tested by hand, not in CI.** CI can't show a Hello prompt, so the tests and the bench use a stand-in signer. `pytest -m hello -s` exercises the real prompts. It passed on the author's laptop on 2026-11-10 (PIN; the same key unwrapped twice), and a cancelled prompt in a later run found [#13](https://github.com/NAMAN-VERMA-02/clipmind/issues/13), now fixed. Other devices (fingerprint, face, no TPM) haven't been tried.
 - **Firefox and Brave private windows** are detected from their known window titles, not verified live. Edge InPrivate and Chrome Incognito were verified.
 - **Paraphrase search is weak** (see above). Keyword search is reliable.
 - **Losing Hello loses history.** A PIN reset or a TPM clear makes old history unreadable. With 7-day expiry that's accepted.
