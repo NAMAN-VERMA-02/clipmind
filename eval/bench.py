@@ -22,7 +22,6 @@ from pathlib import Path
 
 import numpy as np
 import psutil
-from cryptography.hazmat.primitives.asymmetric.x25519 import X25519PrivateKey
 from filters_eval import meta
 from search_eval import MODELS, build_corpus, model_dir
 
@@ -83,7 +82,10 @@ def run_model(name: str, texts: list[str], queries: list[str], tmp: Path) -> dic
             lat.append(time.perf_counter() - t)
         store.close()
         db_bytes = (tmp / f"{name}.db").stat().st_size
+        probes = [memory(name, tmp / f"{name}.db", priv.private_bytes_raw().hex()) for _ in range(3)]
         return {"items_stored": len(index), "dropped_by_filters": dropped,
+                "memory": {"cold_start_s": [p["cold_start_s"] for p in probes],  # first one may hit a cold disk cache
+                           "locked_mb": probes[-1]["locked_mb"], "unlocked_10k_mb": probes[-1]["unlocked_10k_mb"]},
                 "persist_ms": {"p50": pct(persist, 50), "p95": pct(persist, 95), "p99": pct(persist, 99)},
                 "unlock_10k_s": round(unlock_s, 3),
                 "search_ms": {"p50": pct(lat, 50), "p95": pct(lat, 95), "p99": pct(lat, 99),
@@ -179,20 +181,28 @@ def main() -> int:
     items, queries = build_corpus()
     texts, qs = [t for _, t in items], [q["query"] for q in queries]
     res = {"meta": {**meta(), "command": "python eval/bench.py", **machine()}, "models": {}}
+    runs = {name: [] for name in MODELS}
     with tempfile.TemporaryDirectory() as tmp:
-        for name in MODELS:
-            r = run_model(name, texts, qs, Path(tmp))
-            priv = X25519PrivateKey.generate()  # fresh store for the memory probe; no vault entry needed
-            target_db = Path(tmp) / f"{name}-mem.db"
-            store = Store(str(target_db), priv.public_key())
-            emb = Embedder(model_dir(name))
-            for text in texts:
-                if not filters.check(text):
-                    store.add(text, emb.embed(text).astype(np.float16).tobytes())
-            store.close()
-            r["memory"] = memory(name, target_db, priv.private_bytes_raw().hex())
-            res["models"][name] = r
-            print(name, json.dumps(r, indent=1))
+        for rnd, order in enumerate([MODELS, MODELS[::-1]]):  # swapped order: the first run pays for cold caches
+            for pos, name in enumerate(order, 1):
+                d = Path(tmp) / f"round{rnd + 1}"
+                d.mkdir(exist_ok=True)
+                busy = psutil.cpu_percent(interval=2)
+                r = {"round": rnd + 1, "position": pos, "cpu_busy_before_pct": busy, **run_model(name, texts, qs, d)}
+                runs[name].append(r)
+                print(name, json.dumps(r, indent=1), flush=True)
+    for name, rs in runs.items():
+        med = lambda f, rs=rs: round(statistics.median(f(r) for r in rs), 3)  # noqa: E731
+        res["models"][name] = {"median_of_runs": {
+            "persist_ms_p50": med(lambda r: r["persist_ms"]["p50"]),
+            "persist_ms_p95": med(lambda r: r["persist_ms"]["p95"]),
+            "unlock_10k_s": med(lambda r: r["unlock_10k_s"]),
+            "search_ms_p50": med(lambda r: r["search_ms"]["p50"]),
+            "search_ms_p95": med(lambda r: r["search_ms"]["p95"]),
+            "cold_start_s": round(statistics.median(c for r in rs for c in r["memory"]["cold_start_s"]), 3),
+            "locked_uss_mb": med(lambda r: r["memory"]["locked_mb"]["uss"]),
+            "unlocked_uss_mb": med(lambda r: r["memory"]["unlocked_10k_mb"]["uss"]),
+            "db_bytes_per_item": med(lambda r: r["db_bytes_per_item"])}, "runs": rs}
     res["quarantine"] = quarantine()
     print(json.dumps(res["quarantine"], indent=1))
     RESULTS.parent.mkdir(exist_ok=True)

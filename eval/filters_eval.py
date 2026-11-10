@@ -80,7 +80,11 @@ def meta() -> dict:
 
 def table(res: dict) -> str:
     rows = ["| Secret type (source) | Samples | Dropped | False-negative rate |", "|---|---:|---:|---:|"]
-    rows += [f"| {g} | {r['n']} | {r['dropped']} | {r['fn_rate']:.1%} |" for g, r in res["secrets"].items()]
+    for g, r in res["secrets"].items():
+        rows.append(f"| {g} | {r['n']} | {r['dropped']} | {r['fn_rate']:.1%} |")
+        if 2 <= len(r["by_variant"]) <= 4:  # a pooled rate hides groups that behave differently (e.g. OTP)
+            rows += [f"| &nbsp;&nbsp;↳ {v} | {s['n']} | {s['dropped']} | {(s['n'] - s['dropped']) / s['n']:.1%} |"
+                     for v, s in r["by_variant"].items()]
     rows += ["", "| Safe text | Samples | Dropped | False-positive rate |", "|---|---:|---:|---:|"]
     rows += [f"| {g} | {r['n']} | {r['dropped']} | {r['fp_rate']:.1%} |" for g, r in res["safe"].items()]
     return "\n".join(rows)

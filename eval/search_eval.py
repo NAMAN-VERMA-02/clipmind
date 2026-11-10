@@ -10,6 +10,7 @@ copy time so recency can't help. Queries are the labelled ones in eval/queries*.
 
 import argparse
 import json
+import math
 import os
 import random
 import sys
@@ -57,10 +58,18 @@ def rank(hits, row: int) -> int | None:
     return next((i for i, h in enumerate(hits, 1) if h.id == row), None)
 
 
+def wilson(k: int, n: int, z: float = 1.96) -> list[float]:
+    """95% Wilson interval: with ~100 queries, a few points of difference is noise."""
+    p, d = k / n, 1 + z * z / n
+    mid, half = (p + z * z / (2 * n)) / d, z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d
+    return [round(mid - half, 4), round(mid + half, 4)]
+
+
 def score(ranks: list[int | None]) -> dict:
     n = len(ranks)
+    hit5 = sum(r <= 5 for r in ranks if r)
     return {"n": n, "recall@1": round(sum(r == 1 for r in ranks if r) / n, 4),
-            "recall@5": round(sum(r <= 5 for r in ranks if r) / n, 4),
+            "recall@5": round(hit5 / n, 4), "recall@5_ci95": wilson(hit5, n),
             "recall@10": round(sum(r is not None for r in ranks) / n, 4),
             "mrr@10": round(sum(1 / r for r in ranks if r) / n, 4)}
 
@@ -89,11 +98,12 @@ def evaluate() -> dict:
 
 
 def table(res: dict) -> str:
-    rows = ["| Model | Mode | Recall@1 | Recall@5 | Recall@10 | MRR@10 |", "|---|---|---:|---:|---:|---:|"]
+    rows = ["| Model | Mode | Recall@1 | Recall@5 (95% CI) | Recall@10 | MRR@10 |", "|---|---|---:|---:|---:|---:|"]
     for model, r in res["models"].items():
         for mode, groups in r["modes"].items():
             a = groups["all"]
-            rows.append(f"| {model} | {mode} | {a['recall@1']:.1%} | {a['recall@5']:.1%} | "
+            lo, hi = a["recall@5_ci95"]
+            rows.append(f"| {model} | {mode} | {a['recall@1']:.1%} | {a['recall@5']:.0%} ({lo:.0%}–{hi:.0%}) | "
                         f"{a['recall@10']:.1%} | {a['mrr@10']:.3f} |")
     rows += ["", "Recall@5 by query type (hybrid):", ""]
     for model, r in res["models"].items():
