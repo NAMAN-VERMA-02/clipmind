@@ -15,7 +15,7 @@ requires-python = ">=3.12"
 dependencies = [
   "cryptography>=44",
   "numpy>=2.0",
-  "winrt-runtime>=3.0",
+  "winrt-runtime>=4.2.0",
   "winrt-Windows.Foundation>=3.0",
   "winrt-Windows.Security.Credentials>=3.0",
   "winrt-Windows.Security.Cryptography>=3.0",
